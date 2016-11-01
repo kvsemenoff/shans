@@ -1,9 +1,21 @@
-@import "reset.css";
-@import "style.css";
-@import "style2.css";
-@import "style3.css";
-@import "style4.css";
-@import "fonts.css";
+.clear{
+	clear: both;
+}
+
+.df-right-blok{
+	font-size: 15px;
+	color:#161616;
+	font-family: "OpenSans-Regular";
+	.df-first-cap{
+		font-size: 22px;
+		color: #161616;
+	}
+}
+
+
+
+
+
 
 @media only screen and (min-width : 320px) {
 }

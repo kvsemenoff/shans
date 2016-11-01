@@ -1,8 +1,12 @@
-@import url(reset.css);
-@import url(style.css);
-@import url(style2.css);
-@import url(style3.css);
-@import url(style4.css);
-@import url(fonts.css);
+.clear {
+  clear: both; }
+
+.df-right-blok {
+  font-size: 15px;
+  color: #161616;
+  font-family: "OpenSans-Regular"; }
+  .df-right-blok .df-first-cap {
+    font-size: 22px;
+    color: #161616; }
 
 /*# sourceMappingURL=style5.css.map */
