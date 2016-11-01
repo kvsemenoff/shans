@@ -1,14 +1,38 @@
 .clear{
 	clear: both;
 }
+.df-caption{
+	text-align: center;
+	font-size: 22px;
+	color: #161616;
+	padding:43px 0;
+}
+.df-left-blok{
+	max-width: 370px;
+	//height:570px;
+	border:2px solid #cccccc;
+	text-align: center;
+	margin: 0 auto;
+	img{
+		display: inline-block;
+		padding-top: 65px;
+		padding-bottom: 50px;
+	}
+}
 
 .df-right-blok{
 	font-size: 15px;
 	color:#161616;
 	font-family: "OpenSans-Regular";
+	line-height: 20px;
 	.df-first-cap{
-		font-size: 22px;
-		color: #161616;
+		font-size: 22px;		
+	}
+	.df-first-box, .df-second-box, .df-third-box{
+		padding-bottom: 37px;
+	}
+	span a{
+		color:#161616;
 	}
 }
 

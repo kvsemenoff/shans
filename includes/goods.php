@@ -6,7 +6,7 @@
 		<div class="clearfix"></div>
 		<div class="col-md-6">
 			<div class="df-left-blok">
-				<img class="img-responsive" src="" alt="">
+				<img class="img-responsive" src="/img/df-product.png" alt="">
 			</div>
 		</div>
 		<div class="col-md-6">
