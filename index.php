@@ -23,7 +23,7 @@
 	<script src="libs/wow/wow.min.js"></script>
 	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
 	<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
-
+	
 	<script>
     	new WOW().init();
     </script>
@@ -31,6 +31,7 @@
 	<script src="js/responsiveTabs.js"></script>
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/common.js"></script>
+	<script src="https://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>
 
 	<?php require_once('includes/header.php'); ?>
 	<?php require_once('includes/goods.php'); ?>
