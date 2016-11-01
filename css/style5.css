@@ -1,8 +1,32 @@
-@import url(reset.css);
-@import url(style.css);
-@import url(style2.css);
-@import url(style3.css);
-@import url(style4.css);
-@import url(fonts.css);
+.clear {
+  clear: both; }
+
+.df-caption {
+  text-align: center;
+  font-size: 22px;
+  color: #161616;
+  padding: 43px 0; }
+
+.df-left-blok {
+  max-width: 370px;
+  border: 2px solid #cccccc;
+  text-align: center;
+  margin: 0 auto; }
+  .df-left-blok img {
+    display: inline-block;
+    padding-top: 65px;
+    padding-bottom: 50px; }
+
+.df-right-blok {
+  font-size: 15px;
+  color: #161616;
+  font-family: "OpenSans-Regular";
+  line-height: 20px; }
+  .df-right-blok .df-first-cap {
+    font-size: 22px; }
+  .df-right-blok .df-first-box, .df-right-blok .df-second-box, .df-right-blok .df-third-box {
+    padding-bottom: 37px; }
+  .df-right-blok span a {
+    color: #161616; }
 
 /*# sourceMappingURL=style5.css.map */
