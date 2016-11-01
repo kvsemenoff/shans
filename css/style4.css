@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-@import url(reset.css);@import url(style.css);@import url(style2.css);@import url(style3.css);@import url(style4.css);@import url(fonts.css);.dd-footer{background:#FFFFFF;border-top:1px solid #C7C7C7}.dd-footer .dd-footer-left{font-family:"Lato-Bold"}.dd-footer .dd-search-box{width:100%}.dd-footer .dd-search-box .dd-form{display:block;position:relative}.dd-footer .dd-search-box .dd-form input[type="text"]{width:100%;height:31px;border:1px solid #cbd1d6;border-radius:9px;line-height:51px;padding:0px 17px;z-index:10;font-size:14px;color:#97a3ad;max-height:100%;max-width:100%;letter-spacing:.02em}.dd-footer .dd-search-box .dd-form input[type="submit"]{position:absolute;z-index:50;width:17px;height:17px;border:none;right:11px;top:8px;background:url(../img/dd-lupa.png) no-repeat top center}
-=======
 @import url(reset.css);
 @import url(style.css);
 @import url(style2.css);
@@ -11,13 +8,8 @@
 .dd-footer {
   background: #FFFFFF;
   border-top: 1px solid #C7C7C7; }
-  .dd-footer .dd-vhod-bottom {
-    width: 100%;
-    display: -webkit-flex;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 40px; }
+  .dd-footer .dd-footer-left {
+    font-family: "Lato-Bold"; }
   .dd-footer .dd-search-box {
     width: 100%; }
     .dd-footer .dd-search-box .dd-form {
@@ -30,7 +22,6 @@
         border-radius: 9px;
         line-height: 51px;
         padding: 0px 17px;
-        box-sizing: border-box;
         z-index: 10;
         font-size: 14px;
         color: #97a3ad;
@@ -49,5 +40,4 @@
 
 /*============== end Footer ==============*/
 
->>>>>>> 76488bb221c84cd07909f4ba08939728ba69a746
 /*# sourceMappingURL=style4.css.map */
