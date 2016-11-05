@@ -1,0 +1,64 @@
+.clear {
+  clear: both; }
+
+@media only screen and (max-width: 798px) {
+  .dg-width {
+    width: 100% !important;
+    outline: 1px solid red;
+    padding: 25px !important; }
+
+  .dg-page h1 {
+    font-size: 35px !important; }
+  .dg-page img {
+    width: 100%;
+    height: auto; } }
+.dg-page .dg-width {
+  width: 774px;
+  margin: 0 auto; }
+.dg-page h1 {
+  font-size: 42px;
+  font-family: "pt-serif";
+  color: #161616;
+  line-height: 32px;
+  text-align: center;
+  padding: 35px 0; }
+.dg-page p {
+  font-size: 15px;
+  font-family: "OpenSans-Regular";
+  color: #161616;
+  line-height: 20px;
+  text-align: left; }
+.dg-page h2 {
+  font-size: 22px;
+  font-family: "pt-serif";
+  color: #161616;
+  line-height: 1.455;
+  max-width: 484px;
+  padding: 34px 0;
+  text-align: center;
+  margin: 0 auto; }
+.dg-page img {
+  padding: 25px 0; }
+.dg-page h3 {
+  font-size: 15px;
+  font-family: "OpenSans-Bold";
+  color: #161616;
+  line-height: 1.333;
+  text-align: left;
+  padding: 28px 0; }
+.dg-page .oznak {
+  font-size: 22px;
+  font-family: "pt-serif";
+  color: white;
+  line-height: 1.455;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #282761;
+  padding: 25px 0;
+  margin-top: 70px; }
+.dg-page .result h2 {
+  text-align: left;
+  margin: 0;
+  padding: 16px 0 14px 0; }
+
+/*# sourceMappingURL=style6.css.map */
