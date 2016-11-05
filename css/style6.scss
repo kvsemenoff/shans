@@ -15,6 +15,13 @@
 }
 .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
 }
+@media (min-width: 768px) and (max-width: 992px){
+	.dg-actions{
+		h2{
+			padding: 0 15px !important;
+		}
+	}
+}
 @media only screen and (max-width: 992px){
 	.imgbox{
 		margin: 0 auto;
@@ -223,10 +230,15 @@
 		padding: 17px 0;
 	}
 	p{
-		padding: 17px 0;
+		padding: 17px 15px;
+	}
+	a{
+		color: #161616;
+		text-decoration: none;
 	}
 	.mh{
 		height: 330px;
+		padding: 0;
 	}
 	.calendar{
 		width: 228px;
