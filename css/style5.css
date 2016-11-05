@@ -72,13 +72,13 @@
     background: #ebebeb;
     border-radius: 5px; }
     .df-article .df-art-box ul {
-      padding: 10px 20px; }
+      padding: 14px 30px 14px 31px; }
       .df-article .df-art-box ul li a {
         font-family: "Lato-Bold";
         font-size: 15px;
         color: #161616;
         display: inline-block;
-        padding: 10px 0; }
+        padding: 9px 0; }
     .df-article .df-art-box .df-last {
       background: #7ec142;
       color: #fff;
@@ -87,8 +87,8 @@
       width: 100%;
       height: 60px;
       display: inline-block;
-      padding: 20px;
-      margin-top: 25px;
+      padding: 10px 45px 10px 30px;
+      margin-top: 32px;
       border-radius: 0px 0px 5px 5px; }
 
 .df-about .df-about-text {
@@ -144,7 +144,7 @@
     float: left;
     width: 70%; }
     .df-about .df-about-caption {
-      margin-bottom: 35px; }
+      margin-bottom: 25px; }
 
   .df-max-width {
     width: 100%;
@@ -154,18 +154,18 @@
 
   .df-img-about {
     width: 100%;
-    margin-top: 60px;
+    margin-top: 48px;
     margin-bottom: 220px; }
     .df-img-about img {
       float: left;
       height: 300px;
       display: inline-block; }
     .df-img-about .dfimg1 {
-      width: 19%; }
+      width: 22%; }
     .df-img-about .dfimg2 {
-      width: 45%; }
+      width: 41%; }
     .df-img-about .dfimg3 {
-      width: 36%; }
+      width: 37%; }
     .df-img-about .dfimg4, .df-img-about .dfimg5, .df-img-about .dfimg6 {
       width: 33.27%; } }
 @media only screen and (min-width: 1248px) {
