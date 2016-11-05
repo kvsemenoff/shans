@@ -7,6 +7,9 @@
 @media only screen and (max-width: 992px) {
   .imgbox {
     margin: 0 auto; } }
+@media only screen and (max-width: 768px) {
+  .dg-actions .mh {
+    height: auto !important; } }
 @media only screen and (max-width: 798px) {
   .dg-width {
     width: 100% !important;
@@ -147,5 +150,56 @@
       font-family: "OpenSans-Regular";
       display: block;
       line-height: 15px; }
+
+.dg-center {
+  margin-top: 30px;
+  text-align: center !important; }
+
+.dg-actions h2 {
+  padding: 17px 0; }
+.dg-actions p {
+  padding: 17px 0; }
+.dg-actions .mh {
+  height: 330px; }
+.dg-actions .calendar {
+  width: 228px;
+  margin: 0 auto; }
+.dg-actions .left {
+  display: block;
+  padding-top: 10px;
+  padding-left: 52px;
+  background-color: #ebebeb;
+  width: 141px;
+  height: 41px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  float: left;
+  font-size: 15px;
+  font-family: "OpenSans-Semibold";
+  position: relative; }
+.dg-actions .left:before {
+  position: absolute;
+  content: url("../img/dg-cal.png");
+  left: 21px;
+  top: 8px; }
+.dg-actions .right {
+  display: block;
+  margin-left: 141px;
+  padding-top: 10px;
+  padding-left: 42px;
+  height: 41px;
+  width: 88px;
+  background-color: #7dc141;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: relative;
+  color: #fff;
+  font-size: 15px;
+  font-family: "OpenSans-Semibold"; }
+.dg-actions .right:before {
+  position: absolute;
+  content: url("../img/dg-birka.png");
+  top: 9px;
+  left: 11px; }
 
 /*# sourceMappingURL=style6.css.map */
