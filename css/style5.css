@@ -58,6 +58,51 @@
   width: 100%;
   margin-bottom: 25px; }
 
+.df-article-caption, .df-about-caption {
+  color: #161616;
+  font-family: "Conv_pt-serif_[allfont.ru]";
+  font-size: 42px;
+  text-align: center;
+  margin: 20px 0; }
+
+.df-article {
+  width: 100%;
+  min-width: 245px; }
+  .df-article .df-art-box {
+    background: #ebebeb;
+    border-radius: 5px; }
+    .df-article .df-art-box ul {
+      padding: 10px 20px; }
+      .df-article .df-art-box ul li a {
+        font-family: "Lato-Bold";
+        font-size: 15px;
+        color: #161616;
+        display: inline-block;
+        padding: 10px 0; }
+    .df-article .df-art-box .df-last {
+      background: #7ec142;
+      color: #fff;
+      font-family: "Lato-Bold";
+      font-size: 15px;
+      width: 100%;
+      height: 60px;
+      display: inline-block;
+      padding: 20px;
+      margin-top: 25px;
+      border-radius: 0px 0px 5px 5px; }
+
+.df-about .df-about-text {
+  font-size: 15px;
+  line-height: 20px;
+  color: #161616;
+  font-family: "OpenSans-Regular"; }
+  .df-about .df-about-text p {
+    margin-bottom: 20px; }
+
+.df-img-about img {
+  width: 100%;
+  height: 300px; }
+
 @media only screen and (min-width: 480px) {
   .df-contacts .df-box1 {
     width: 50%;
@@ -66,6 +111,13 @@
   .df-contacts .df-box2 {
     width: 33%;
     float: right; } }
+@media only screen and (min-width: 768px) {
+  .df-img-about {
+    margin: 0 auto;
+    text-align: center; }
+    .df-img-about img {
+      width: 50%;
+      height: 300px; } }
 @media only screen and (min-width: 992px) {
   .df-caption, .df-contacts-caption {
     padding: 43px 0 !important; }
@@ -79,7 +131,43 @@
   .df-contacts {
     max-width: 600px; }
     .df-contacts .df-box2 {
-      width: 40%; } }
+      width: 40%; }
+
+  .df-article {
+    width: 20%;
+    float: right;
+    min-width: 245px; }
+    .df-article .df-article-caption {
+      margin-bottom: 35px; }
+
+  .df-about {
+    float: left;
+    width: 70%; }
+    .df-about .df-about-caption {
+      margin-bottom: 35px; }
+
+  .df-max-width {
+    width: 100%;
+    padding: 0 100px;
+    max-width: 1115px;
+    margin: 0 auto; }
+
+  .df-img-about {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 220px; }
+    .df-img-about img {
+      float: left;
+      height: 300px;
+      display: inline-block; }
+    .df-img-about .dfimg1 {
+      width: 19%; }
+    .df-img-about .dfimg2 {
+      width: 45%; }
+    .df-img-about .dfimg3 {
+      width: 36%; }
+    .df-img-about .dfimg4, .df-img-about .dfimg5, .df-img-about .dfimg6 {
+      width: 33.27%; } }
 @media only screen and (min-width: 1248px) {
   .df-contacts {
     max-width: 630px;
