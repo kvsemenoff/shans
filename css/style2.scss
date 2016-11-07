@@ -5,13 +5,136 @@
 @import "style4.css";
 @import "fonts.css";
 
+
+
+.db-wrapp{
+	width: 100%;
+	background: #ebebeb;
+	min-height: 304px;
+	border-radius: 5px;
+	padding: 40px;
+	text-align: center;
+}
+.db-stat-title{
+	display: block;
+	font-family: "pt-serif";
+	font-size: 42px;
+	line-height: 31px;
+	color: #161616;
+	margin-bottom: 32px;
+}
+.db-div1, .db-div2, .db-div3, .db-div4{
+	display: block;
+	float: none;
+	width: 90%;
+	text-align: left; 
+}
+.db-div1{
+	position: relative;
+	padding: 16px 20px 16px 0px;
+}
+.db-div1:before{
+	position: absolute;
+    content: "";
+    width: 1px;
+    height: 119px;
+    top: 0px;
+    right: -8px;
+    background: none;
+}
+.db-div2{
+	position: relative;
+	padding: 13px 20px 16px 26px;
+}
+.db-div2:before{
+	position: absolute;
+    content: "";
+    width: 1px;
+    height: 119px;
+    top: 0px;
+    right: -13px;
+    background: none;
+}
+.db-div3{
+	position: relative;
+	padding: 13px 20px 16px 30px;
+}
+.db-div3:before{
+	position: absolute;
+    content: "";
+    width: 1px;
+    height: 119px;
+    top: 0px;
+    right: -18px;
+    background: none;
+}
+.db-div4{
+	padding: 13px 20px 16px 30px;
+}
+.db-text{
+	font-family: "Lato-Bold";
+	color: #161616;
+	font-size: 15px;
+}
+.db-stat-link{
+	display: block;
+	margin-top: 42px;
+	color: #161616;
+	font-size: 15px;
+	font-family: System;
+	font-weight: 700;
+}
+
+
+
+
 @media only screen and (min-width : 320px) {
 }
 
 @media only screen and (min-width : 480px) {
+	.db-div1, .db-div2, .db-div3, .db-div4{
+		display: inline-block;
+		float: none;
+		width: 49%;
+		text-align: left;
+	}
 }
 
 @media only screen and (min-width : 768px) {
+
+	.db-div1, .db-div2, .db-div3, .db-div4{
+		float: left;
+		width: 24.3%;
+		text-align: left;
+	}
+	.db-div1:before{
+		position: absolute;
+	    content: "";
+	    width: 1px;
+	    height: 119px;
+	    top: 0px;
+	    right: -8px;
+	    background: #c7c7c7;
+	}
+	.db-div2:before{
+		position: absolute;
+	    content: "";
+	    width: 1px;
+	    height: 119px;
+	    top: 0px;
+	    right: -13px;
+	    background: #c7c7c7;
+	}
+	.db-div3:before{
+		position: absolute;
+	    content: "";
+	    width: 1px;
+	    height: 119px;
+	    top: 0px;
+	    right: -18px;
+	    background: #c7c7c7;
+	}
+
 }
 
 @media only screen and (min-width : 992px) {
