@@ -77,3 +77,11 @@
   font-style: normal; }
 
   
+@font-face {
+  font-family: "Lato-RegularLato-Regular";
+  src: url("../fonts/Lato-RegularLato-Regular/Lato-RegularLato-Regular.eot");
+  src: local("☺"), url("../fonts/Lato-RegularLato-Regular/Lato-RegularLato-Regular.woff") format("woff"), url("../fonts/Lato-Regular/Lato-Regular.ttf") format("truetype"), url("../fonts/Lato-Regular/Lato-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+  

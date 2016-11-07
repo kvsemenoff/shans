@@ -10,7 +10,6 @@
 		padding-top:29px;
 	}
 	.container{
-		max-width: 920px;
 		.dd-footer-box-wrap{
 			max-width: 774px;
 			text-align: center;
@@ -126,7 +125,45 @@
 		.item{
 			height: 390px;
 			width: 100%;
+
+			.dd-slide-txt-wrap{
+				padding-top:121px;
+				width: 774px;
+				//outline: 1px solid red;
+				margin:0 auto;
+				.dd-first-txt{
+					font-family: "Lato-RegularLato-Regular";
+					font-size: 15px;
+					color:#161616;
+				}
+				.dd-second-txt{
+					font-family: "Conv_pt-serif_[allfont.ru]";
+					font-size: 43px;
+				}
+			}
 		}
+		.owl-controls{
+			margin-top: -50px;
+			z-index: 9999;
+			.owl-dots{
+				width: 100%;
+				text-align: center;
+				// margin-top: -50px;
+				// z-index: 500;
+				.owl-dot{
+					display: inline-block;
+					span{
+						display: inline-block;
+						border-radius:10em;
+						width: 14px;
+						height: 14px;
+					background:black;
+					//outline: 1px solid red;
+					}
+				}
+			}
+		}
+
 	}
 	.dd-face-content-wrap{
 		max-width: 778px;
@@ -181,9 +218,14 @@
 			}
 		}
 		.dd-dowload{
-			font-family: "OpenSans-Regular";
-			font-size: 15px;
+			position:relative;
 			text-align: center;
+			padding-bottom:50px;
+			a{
+				font-family: "OpenSans-Regular";
+				font-size: 15px;
+				color:#161616;
+			}
 		}
 	}
 	.dd-face-content-wrap2{
@@ -213,6 +255,7 @@
 	}
 	.dd-face-content-wrap3{
 		padding:0px !important;
+		width: 858px;
 		.dd-table-blue{
 			background:#282761;
 			border-radius:5px;
@@ -271,6 +314,14 @@
 			.item{
 				height: 390px;
 				width: 100%;
+				.dd-slide-txt-wrap{
+					.dd-first-txt{
+						font-size: 22px;
+					}
+					.dd-second-txt{
+						font-size: 52px;
+					}
+				}
 			}
 		}
 		.dd-face-content-wrap{
@@ -336,6 +387,16 @@
 				display: table-cell;
 			}
 		}
+		.dd-dowload{
+			a:after{
+				content: "";
+				position:absolute;
+				width: 24px;
+				height: 24px;
+				background:url(../img/down.png) no-repeat;
+				left: 124px;
+			}
+		}	
 	}	
 
 	.dd-footer{
