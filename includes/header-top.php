@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-﻿<!doctype html>
+<!doctype html>
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
@@ -21,7 +20,7 @@
 	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
 	<script src="libs/owl.carousel/owl.carousel.js"></script>
 	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
-	<script src="libs/drift/dist/Drift.js"></script>
+	<script src="libs/drift/dist/Drift.min.js"></script>
 	<script src="libs/wow/wow.min.js"></script>
 	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
 	<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
@@ -35,15 +34,3 @@
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/common.js"></script>
 	<script src="https://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>
-
-
-	<?php require_once('includes/header-top.php'); ?>
-	<?php require_once('includes/header.php'); ?>
-	<?php require_once('includes/slider.php'); ?>
-	<?php require_once('includes/lico-volosi.php'); ?>
-	<?php require_once('includes/rl-lift.php'); ?>
-	<?php require_once('includes/statii.php'); ?>
-	<?php require_once('includes/o-centre.php'); ?>
-
-	<?php //require_once('includes/goods.php'); ?>	
-	<?php require_once('includes/footer.php'); ?>
