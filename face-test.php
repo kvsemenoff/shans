@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
@@ -34,7 +34,10 @@
 	<script src="https://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>
 
 	<?php require_once('includes/header.php'); ?>
-	<?php require_once('includes/goods.php'); ?>	
+		<section class="dd-slider-face"></section>
+
+
+
 	<?php require_once('includes/footer.php'); ?>
 
 	
