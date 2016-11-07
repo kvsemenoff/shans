@@ -3,6 +3,7 @@
 .clear{
 	clear: both;
 }
+
 .df-caption{
 	text-align: center;
 	font-size: 22px;
@@ -17,6 +18,7 @@
 	margin:0 auto;
 	//margin-right: 0px;
 	margin-bottom: 30px;
+	background: #fff;	
 	img{
 		display: inline-block;
 		padding-top: 65px;
@@ -30,6 +32,7 @@
 	line-height: 20px;
 	margin-bottom: 30px;
 	max-width: 345px;
+	position: relative;
 	.df-first-cap{
 		font-size: 22px;		
 	}
@@ -168,14 +171,17 @@
 		float:left;
 		padding: 15px 20px;
 		text-transform: uppercase;
-		width: 100%;//
-	}
+		width: 100%;//		
+	}	
 	ul li.active, ul li.active:hover{
 		background: #7dc141;
 		color:#fff;
 		border-radius: 50px;
 	}	
+	
 }
+
+
 .df-tab-second{
 	margin-bottom: 50px;
 }
@@ -216,7 +222,7 @@
 }
 
 .df-bg-image{
-	background: url(/img/df-bg-cosmetic.png) no-repeat top right 335px;     //<<<<<<bg-image, class - body
+	// background: url(/img/df-bg-cosmetic.png) no-repeat top right 335px;     //<<<<<<bg-image, class - body
 }
 
 
@@ -264,9 +270,12 @@
 	}
 	.df-cosmetics{
 		float: left;
-		margin-right: 45px;
+		margin-right: 43px;
 	}	
-	div.df-cosmetics:nth-child(4n+1){margin-right: 0px;}
+	
+	.dflast{
+		margin-right: 0px; //3&6 margin 0 cosmetic
+	}
 }
 
 @media only screen and (min-width : 992px) {
