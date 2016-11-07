@@ -13,7 +13,8 @@
   border: 2px solid #cccccc;
   text-align: center;
   margin: 0 auto;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  background: #fff; }
   .df-left-blok img {
     display: inline-block;
     padding-top: 65px;
@@ -25,7 +26,8 @@
   font-family: "Conv_pt-serif_[allfont.ru]";
   line-height: 20px;
   margin-bottom: 30px;
-  max-width: 345px; }
+  max-width: 345px;
+  position: relative; }
   .df-right-blok .df-first-cap {
     font-size: 22px; }
   .df-right-blok .df-first-box, .df-right-blok .df-second-box, .df-right-blok .df-third-box {
@@ -171,9 +173,6 @@
     color: #161616;
     font-family: "OpenSans-Regular"; }
 
-.df-bg-image {
-  background: url(/img/df-bg-cosmetic.png) no-repeat top right 335px; }
-
 @media only screen and (min-width: 480px) {
   .df-contacts .df-box1 {
     width: 50%;
@@ -202,9 +201,9 @@
 
   .df-cosmetics {
     float: left;
-    margin-right: 45px; }
+    margin-right: 43px; }
 
-  div.df-cosmetics:nth-child(4n+1) {
+  .dflast {
     margin-right: 0px; } }
 @media only screen and (min-width: 992px) {
   .df-caption, .df-contacts-caption {
