@@ -120,6 +120,10 @@
     border-radius: 35px;
     width: 100%;
     background: #fff; }
+  .df-tab-first ul:after, .df-tab-second ul:after {
+    content: "";
+    display: block;
+    clear: both; }
   .df-tab-first ul li, .df-tab-second ul li {
     font-family: "Lato-Bold";
     font-size: 13px;
@@ -197,7 +201,7 @@
 
   .df-cosmetics {
     float: left;
-    margin-right: 45px; }
+    margin-right: 43px; }
 
   .dflast {
     margin-right: 0px; } }

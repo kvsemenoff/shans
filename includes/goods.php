@@ -1,17 +1,5 @@
-
-<!-- <div class="container">
-	<div class="row">
-		<div class="col-md-12">
-			<h3 class="df-caption">Body Restorative Milk - Успокаивающее молочко для тела после загара</h3>
-		</div>
-		<div class="clearfix"></div>
-		<div class="col-md-6">
-			<div class="df-left-blok"> -->
-				
-				 	 
-
 <section>
-	<div class="container container_style4">
+	<div class="container container_style4 ">
 		<div class="row">
 			<div class="col-md-12">
 				<h3 class="df-caption">Body Restorative Milk - Успокаивающее молочко для тела после загара

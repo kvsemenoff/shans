@@ -157,11 +157,11 @@
 		width: 100%;//
 		background: #fff;		
 	}
-	// ul:after{
-	// 	content:"";
-	// 	display:block;
-	// 	clear:both;		
-	// }
+	ul:after{
+		content:"";
+		display:block;
+		clear:both;		
+	}
 	ul li {
 		font-family: "Lato-Bold";font-size: 13px; color:#161616;
 		margin:0px;
@@ -177,7 +177,7 @@
 		background: #7dc141;
 		color:#fff;
 		border-radius: 50px;
-	}
+	}	
 	
 }
 
@@ -270,7 +270,7 @@
 	}
 	.df-cosmetics{
 		float: left;
-		margin-right: 45px;
+		margin-right: 43px;
 	}	
 	
 	.dflast{

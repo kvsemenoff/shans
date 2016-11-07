@@ -1,36 +1,95 @@
 h1 {
-  font-family: "OpenSans-Regular";
+  font-family: "pt-serif";
   font-size: 42px;
   line-height: 100px;
   color: #161616; }
 
+/*menu*/
+#check_1 {
+  display: none; }
+
+.anz-perspective {
+  position: fixed;
+  top: 0px;
+  height: 100%;
+  -webkit-perspective: 500px;
+  perspective: 500px;
+  z-index: 17;
+  width: 330px; }
+
+#check_1:checked ~ .anz-perspective {
+  transition: all 1s ease-in-out;
+  left: 0px; }
+
+#check_1 ~ .anz-perspective {
+  transition: all 1s ease-in-out;
+  left: -330px; }
+
+#check_1:checked ~ .anz-perspective .menu-list-pressed {
+  transition: all 1s ease-in-out; }
+
+#check_1 ~ .anz-perspective .menu-list-pressed {
+  transition: all 1s ease-in-out; }
+
+.anz-menu-ch {
+  cursor: pointer; }
+
+/*menu*/
+/*menu styles*/
+.anz-menu {
+  text-align: right;
+  height: 60px;
+  line-height: 60px; }
+
+.anz-menu-ch {
+  display: inline-block;
+  position: relative;
+  font-size: 20px;
+  color: #161616; }
+  .anz-menu-ch i {
+    font-size: 20px;
+    color: #161616; }
+
+.main-menu {
+  height: 60px; }
+  .main-menu li {
+    line-height: 30px;
+    margin-right: 25px;
+    display: block; }
+    .main-menu li a {
+      color: #000;
+      font-family: "Lato-Bold";
+      font-size: 13px;
+      text-transform: uppercase; }
+
+/*menu styles*/
 @media only screen and (min-width: 992px) {
   .container_style2 {
-    padding-left: 10px !important;
-    padding-right: 10px !important; }
+    padding-left: 25px !important;
+    padding-right: 25px !important; }
 
   .container_style3 {
-    padding-left: 42px !important;
-    padding-right: 42px !important; }
+    padding-left: 57px !important;
+    padding-right: 57px !important; }
 
   .container_style4 {
-    padding-left: 83px !important;
-    padding-right: 83px !important; } }
+    padding-left: 98px !important;
+    padding-right: 98px !important; } }
 @media only screen and (min-width: 1200px) {
   .container_style1 {
-    padding-left: 70px !important;
-    padding-right: 70px !important; }
+    padding-left: 85px !important;
+    padding-right: 85px !important; }
 
   .container_style2 {
-    padding-left: 110px !important;
-    padding-right: 110px !important; }
+    padding-left: 125px !important;
+    padding-right: 125px !important; }
 
   .container_style3 {
-    padding-left: 142px !important;
-    padding-right: 142px !important; }
+    padding-left: 157px !important;
+    padding-right: 157px !important; }
 
   .container_style4 {
-    padding-left: 183px !important;
-    padding-right: 183px !important; } }
+    padding-left: 197px !important;
+    padding-right: 197px !important; } }
 
 /*# sourceMappingURL=style3.css.map */
