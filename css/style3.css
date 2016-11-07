@@ -15,21 +15,21 @@ h1 {
   -webkit-perspective: 500px;
   perspective: 500px;
   z-index: 17;
-  width: 330px; }
+  width: 200px; }
 
 #check_1:checked ~ .anz-perspective {
-  transition: all 1s ease-in-out;
+  transition: all .8s ease-in-out;
   left: 0px; }
 
 #check_1 ~ .anz-perspective {
-  transition: all 1s ease-in-out;
-  left: -330px; }
+  transition: all .8s ease-in-out;
+  left: -200px; }
 
 #check_1:checked ~ .anz-perspective .menu-list-pressed {
-  transition: all 1s ease-in-out; }
+  transition: all .8s ease-in-out; }
 
 #check_1 ~ .anz-perspective .menu-list-pressed {
-  transition: all 1s ease-in-out; }
+  transition: all .8s ease-in-out; }
 
 .anz-menu-ch {
   cursor: pointer; }
@@ -50,20 +50,86 @@ h1 {
     font-size: 20px;
     color: #161616; }
 
+.anz-menu-ch1 {
+  text-align: right;
+  font-size: 20px;
+  color: #161616;
+  cursor: pointer; }
+
 .main-menu {
-  height: 60px; }
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  border: 1px solid #161616;
+  background: #fff;
+  padding-right: 15px; }
   .main-menu li {
-    line-height: 30px;
-    margin-right: 25px;
+    line-height: 36px;
+    text-align: left;
     display: block; }
     .main-menu li a {
       color: #000;
       font-family: "Lato-Bold";
       font-size: 13px;
       text-transform: uppercase; }
+    .main-menu li .da-zvonok {
+      height: 36px;
+      border: 3px solid #7ec142;
+      border-radius: 18px;
+      line-height: 30px;
+      padding: 0 17px;
+      display: inline-block;
+      background: #fff; }
+    .main-menu li .da-zvonok:hover {
+      background: #7ec142;
+      color: #fff; }
+  .main-menu li:first-child {
+    text-align: right; }
 
 /*menu styles*/
 @media only screen and (min-width: 992px) {
+  /*margins*/
+  .da-margin-right23 {
+    margin-right: 23px; }
+
+  .da-margin-right44 {
+    margin-right: 44px; }
+
+  .da-margin-right40 {
+    margin-right: 40px; }
+
+  /*margins*/
+  .anz-menu-ch1 {
+    display: none; }
+
+  .da-menu {
+    height: 60px;
+    width: 100%; }
+
+  .da-fixed-menu {
+    position: fixed;
+    width: 100%;
+    height: 60px; }
+
+  .anz-perspective {
+    position: static !important;
+    width: 100%; }
+
+  .anz-menu-ch {
+    display: none; }
+
+  .main-menu {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 100%;
+    padding-left: 0px;
+    border: none;
+    background: #fff; }
+    .main-menu li {
+      display: inline-block; }
+    .main-menu li:first-child {
+      display: none; }
+
   .container_style2 {
     padding-left: 25px !important;
     padding-right: 25px !important; }
