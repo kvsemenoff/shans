@@ -13,7 +13,8 @@
   border: 2px solid #cccccc;
   text-align: center;
   margin: 0 auto;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  background: #fff; }
   .df-left-blok img {
     display: inline-block;
     padding-top: 65px;
@@ -25,7 +26,8 @@
   font-family: "Conv_pt-serif_[allfont.ru]";
   line-height: 20px;
   margin-bottom: 30px;
-  max-width: 345px; }
+  max-width: 345px;
+  position: relative; }
   .df-right-blok .df-first-cap {
     font-size: 22px; }
   .df-right-blok .df-first-box, .df-right-blok .df-second-box, .df-right-blok .df-third-box {

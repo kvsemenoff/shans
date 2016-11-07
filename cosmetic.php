@@ -65,7 +65,7 @@
 			$(".df-tab-first").lightTabs1();			
 		});
 	</script>
-	<script>		
+	<!-- <script>		
 		(function($){				
 		jQuery.fn.lightTabs2 = function(options){
 
@@ -98,7 +98,7 @@
 			$(".df-tab-second").lightTabs2();			
 		});
 	</script>
-
+ -->
 	<?php require_once('includes/header.php'); ?>
 		<div class="container df-max-width">
 			<h3 class="df-cosm-caption">Косметика</h3>

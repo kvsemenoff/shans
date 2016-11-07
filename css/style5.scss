@@ -3,6 +3,7 @@
 .clear{
 	clear: both;
 }
+
 .df-caption{
 	text-align: center;
 	font-size: 22px;
@@ -17,6 +18,7 @@
 	margin:0 auto;
 	//margin-right: 0px;
 	margin-bottom: 30px;
+	background: #fff;	
 	img{
 		display: inline-block;
 		padding-top: 65px;
@@ -30,6 +32,7 @@
 	line-height: 20px;
 	margin-bottom: 30px;
 	max-width: 345px;
+	position: relative;
 	.df-first-cap{
 		font-size: 22px;		
 	}

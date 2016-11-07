@@ -37,6 +37,21 @@ $(document).ready(function(){
 
 
 
+     if (window.matchMedia("(min-width:992px)").matches) {   
+        var demoTrigger = document.querySelector('#df-script-zoom');
+        var paneContainer = document.querySelector('.df-third-box');
+
+        new Drift(demoTrigger, {
+          paneContainer: paneContainer,
+          inlinePane: false
+        });
+
+    } else {
+        return false;
+    }
+
+
+
      
 
  });
