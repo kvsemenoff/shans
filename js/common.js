@@ -50,9 +50,72 @@ $(document).ready(function(){
         return false;
     }
 
+       
+        // function($){               
+        // jQuery.fn.lightTabs1 = function(options){
 
+        // var createTabs = function(){
+        //     tabs1 = this;
+        //     i = 0;
+            
+        //     showPage = function(i){
+        //         // $(tabs).children("div").children("div").hide();
+        //         // $(tabs).children("div").children("div").eq(i).show();
+        //         $(tabs1).children("#df-tab1").children("li").removeClass("active");
+        //         $(tabs1).children("#df-tab1").children("li").eq(i).addClass("active");
+        //     }
+                                
+        //     showPage(0);                
+            
+        //     $(tabs1).children("#df-tab1").children("li").each(function(index, element){
+        //         $(element).attr("data-page", i);
+        //         i++;                        
+        //     });
+            
+        //     $(tabs1).children("#df-tab1").children("li").click(function(){
+        //         showPage(parseInt($(this).attr("data-page")));
+        //     });             
+        // };      
+        // return this.each(createTabs);
+        // };  
+        // }
+        
+        // $(document).ready(function(){
+        //     $(".df-tab-first").lightTabs1();            
+        // });
 
-     
+       
+        // (function($){               
+        // jQuery.fn.lightTabs2 = function(options){
+
+        // var createTabs = function(){
+        //     tabs2 = this;
+        //     j = 0;
+            
+        //     showPage = function(j){
+        //         // $(tabs).children("div").children("div").hide();
+        //         // $(tabs).children("div").children("div").eq(i).show();
+        //         $(tabs2).children("#df-tab2").children("li").removeClass("active");
+        //         $(tabs2).children("#df-tab2").children("li").eq(j).addClass("active");
+        //     }
+                                
+        //     showPage(0);                
+            
+        //     $(tabs2).children("#df-tab2").children("li").each(function(index, element){
+        //         $(element).attr("data-page", j);
+        //         j++;                        
+        //     });
+            
+        //     $(tabs2).children("#df-tab2").children("li").click(function(){
+        //         showPage(parseInt($(this).attr("data-page")));
+        //     });             
+        // };      
+        // return this.each(createTabs);
+        // };  
+        // })(jQuery);
+        // $(document).ready(function(){
+        //     $(".df-tab-second").lightTabs2();           
+        // });     
 
  });
 

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ﻿<!doctype html>
 <html lang="ru">
 <head>
@@ -35,7 +35,6 @@
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/common.js"></script>
 	<script src="https://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>
-
 
 	<?php require_once('includes/header-top.php'); ?>
 	<?php require_once('includes/header.php'); ?>

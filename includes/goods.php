@@ -1,26 +1,27 @@
-<<<<<<< HEAD
-<div class="container">
+
+<!-- <div class="container">
 	<div class="row">
 		<div class="col-md-12">
 			<h3 class="df-caption">Body Restorative Milk - Успокаивающее молочко для тела после загара</h3>
 		</div>
 		<div class="clearfix"></div>
 		<div class="col-md-6">
-			<div class="df-left-blok">
-				<img class="img-responsive" id="df-script-zoom" src="/img/df-product.png" alt=""  data-zoom="img/df-product.png?w=1200&amp; ch=DPR&amp;dpr=2">
+			<div class="df-left-blok"> -->
+				
 				 	 
-=======
+
 <section>
 	<div class="container container_style4">
 		<div class="row">
 			<div class="col-md-12">
-				<h3 class="df-caption">Body Restorative Milk - Успокаивающее молочко для тела после загара</h3>
->>>>>>> b8659548e4c252c1cbcddf159ce33970afd5b0ed
+				<h3 class="df-caption">Body Restorative Milk - Успокаивающее молочко для тела после загара
+				</h3>
 			</div>
 			<div class="clearfix"></div>
 			<div class="col-md-6">
 				<div class="df-left-blok">
-					<img class="img-responsive df-script-zoom" src="/img/df-product.png" alt="">
+					<!-- <img class="img-responsive df-script-zoom" src="/img/df-product.png" alt=""> -->
+					<img class="img-responsive" id="df-script-zoom" src="/img/df-product.png" alt=""  data-zoom="img/df-product.png?w=1200&amp; ch=DPR&amp;dpr=2">
 				</div>
 			</div>
 			<div class="col-md-6">
@@ -56,12 +57,12 @@
 			</div>
 		</div>
 	</div>
-<<<<<<< HEAD
+
 </div>
 	
-=======
+
 </section>
-<script>
+<!-- <script>
   new Drift(document.querySelector('.df-script-zoom'), {
     paneContainer: document.querySelector('.df-right-blok'),
     inlinePane: 900,
@@ -69,5 +70,5 @@
     containInline: true,
     hoverBoundingBox: true
   });
-</script>		
->>>>>>> b8659548e4c252c1cbcddf159ce33970afd5b0ed
+</script>	 -->	
+
