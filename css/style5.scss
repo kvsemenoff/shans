@@ -1,3 +1,5 @@
+							//==========GOODS.PHP============
+
 .clear{
 	clear: both;
 }
@@ -5,39 +7,40 @@
 	text-align: center;
 	font-size: 22px;
 	color: #161616;
-	padding:43px 0;
+	padding:25px 0; //43
+	font-family: "Conv_pt-serif_[allfont.ru]";
 }
 .df-left-blok{
-	max-width: 370px;
-	//height:570px;
+	max-width: 370px;	
 	border:2px solid #cccccc;
 	text-align: center;
-	margin: 0 auto;
+	margin:0 auto;
+	//margin-right: 0px;
+	margin-bottom: 30px;
 	img{
 		display: inline-block;
 		padding-top: 65px;
 		padding-bottom: 50px;
 	}
 }
-
 .df-right-blok{
 	font-size: 15px;
 	color:#161616;
-	font-family: "OpenSans-Regular";
+	font-family: "Conv_pt-serif_[allfont.ru]";
 	line-height: 20px;
+	margin-bottom: 30px;
 	.df-first-cap{
 		font-size: 22px;		
 	}
 	.df-first-box, .df-second-box, .df-third-box{
-		padding-bottom: 37px;
+		padding-bottom: 20px;//37
 	}
 	span a{
 		color:#161616;
 	}
 }
 
-
-
+											//GOODS.PHP=================END==
 
 
 
@@ -51,6 +54,15 @@
 }
 
 @media only screen and (min-width : 992px) {
+	.df-caption{
+		padding: 43px 0;
+	}
+	.df-left-blok{
+		margin-right: 0px;
+	}
+	.df-first-box, .df-second-box, .df-third-box{
+		padding-bottom: 37px;//37
+	}
 }
 
 @media only screen and (min-width : 1248px) {
