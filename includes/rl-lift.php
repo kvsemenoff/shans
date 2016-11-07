@@ -1,8 +1,8 @@
 <section>
-	<div class="container container_style2">
+	<div class="container container_style1">
 		<div class="row">
 			<div class="col-md-12">
-				хедер
+				rl-lift
 			</div>
 		</div>
 	</div>
