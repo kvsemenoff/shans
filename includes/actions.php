@@ -1,5 +1,6 @@
 <section class="dg-page">
-	<div class="container dg-width">
+	<div class="container container_style4">
+	<!-- <div class="container dg-width"> -->
 		<div class="row">
 			<h1>Акции</h1>
 			<div class="col-md-12">
