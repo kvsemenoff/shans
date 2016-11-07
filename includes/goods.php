@@ -6,7 +6,7 @@
 		<div class="clearfix"></div>
 		<div class="col-md-6">
 			<div class="df-left-blok">
-				<img class="img-responsive" src="/img/df-product.png" alt="">
+				<img class="img-responsive df-script-zoom" src="/img/df-product.png" alt="">
 			</div>
 		</div>
 		<div class="col-md-6">
@@ -41,4 +41,13 @@
 			</div>
 		</div>
 	</div>
-</div>		
+</div>
+<script>
+  new Drift(document.querySelector('.df-script-zoom'), {
+    paneContainer: document.querySelector('.df-right-blok'),
+    inlinePane: 900,
+    inlineOffsetY: -85,
+    containInline: true,
+    hoverBoundingBox: true
+  });
+</script>		

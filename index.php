@@ -23,6 +23,7 @@
 	<script src="libs/wow/wow.min.js"></script>
 	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
 	<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+	<script src="/libs/drift/dist/Drift.min.js"></script>
 	
 	<script>
     	new WOW().init();
