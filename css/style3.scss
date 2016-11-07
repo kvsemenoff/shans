@@ -4,7 +4,12 @@ h1{
 	line-height: 100px;
 	color: #161616;
 }
-
+// h2{
+// 	font-family: "OpenSans-Regular";
+// 	font-size: 32px;
+// 	line-height: 100px;
+// 	color: #161616;
+// }
 
 @media only screen and (min-width : 320px) {
 }
@@ -13,9 +18,48 @@ h1{
 }
 
 @media only screen and (min-width : 768px) {
+
 }
 
 @media only screen and (min-width : 992px) {
+	//970px //920px
+	.container_style2{
+		padding-left: 10px !important;
+		padding-right: 10px !important;
+	}
+	//970px //856px
+	.container_style3{
+		padding-left: 42px !important;
+		padding-right: 42px !important;
+	}
+	//970px //774px
+	.container_style4{
+		padding-left: 83px !important;
+		padding-right: 83px !important;
+	}
+}
+
+@media only screen and (min-width : 1200px) {
+	//1170px //1000px
+	.container_style1{
+		padding-left: 70px !important;
+		padding-right: 70px !important;
+	}
+	//1170px //920px
+	.container_style2{
+		padding-left: 110px !important;
+		padding-right: 110px !important;
+	}
+	//1170px //856px
+	.container_style3{
+		padding-left: 142px !important;
+		padding-right: 142px !important;
+	}
+	//1170px //774px
+	.container_style4{
+		padding-left: 183px !important;
+		padding-right: 183px !important;
+	}
 }
 
 @media only screen and (min-width : 1248px) {
