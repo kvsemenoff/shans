@@ -190,9 +190,6 @@
     color: #161616;
     font-family: "OpenSans-Regular"; }
 
-.df-bg {
-  background: url(/img/df-bg-cosmetic.png) no-repeat top left 300px; }
-
 @media only screen and (min-width: 480px) {
   .df-contacts .df-box1 {
     width: 50%;
