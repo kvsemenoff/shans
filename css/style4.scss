@@ -143,22 +143,30 @@
 			}
 		}
 		.owl-controls{
-			// margin-top: -50px;
-			// z-index: 9999;
 			.owl-dots{
 				width: 100%;
 				text-align: center;
-				// margin-top: -50px;
-				// z-index: 500;
+				position:absolute;
+				bottom:20px;
 				.owl-dot{
 					display: inline-block;
+					margin-left: 11px;
 					span{
 						display: inline-block;
 						border-radius:10em;
+						width: 7px;
+						height: 7px;
+						background:#7D7D7D;
+					}
+				}
+				.active{
+					display: inline-block;
+					span{
 						width: 14px;
 						height: 14px;
-					background:black;
-					//outline: 1px solid red;
+						background:none;
+						border:3px solid #7D7D7D;
+						border-radius:10em;
 					}
 				}
 			}
@@ -298,6 +306,12 @@
 		}
 	}
 }
+
+/*========================================*/
+
+/*=========== Лазерная эпиляция ==========*/
+
+
 
 /*========================================*/
 

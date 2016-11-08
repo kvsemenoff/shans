@@ -26,12 +26,14 @@
 .db-div1, .db-div2, .db-div3, .db-div4{
 	display: block;
 	float: none;
-	width: 90%;
+	width: 100%;
+	min-height: 120px;
+	vertical-align: top;
 	text-align: left; 
 }
 .db-div1{
 	position: relative;
-	padding: 16px 20px 16px 0px;
+	padding: 15px;
 }
 .db-div1:before{
 	position: absolute;
@@ -44,7 +46,7 @@
 }
 .db-div2{
 	position: relative;
-	padding: 13px 20px 16px 26px;
+	padding: 15px;
 }
 .db-div2:before{
 	position: absolute;
@@ -57,7 +59,7 @@
 }
 .db-div3{
 	position: relative;
-	padding: 13px 20px 16px 30px;
+	padding: 15px;
 }
 .db-div3:before{
 	position: absolute;
@@ -69,7 +71,7 @@
     background: none;
 }
 .db-div4{
-	padding: 13px 20px 16px 30px;
+	padding: 15px;
 }
 .db-text{
 	font-family: "Lato-Bold";
@@ -106,6 +108,21 @@
 		float: left;
 		width: 24.3%;
 		text-align: left;
+	}
+	.db-div1{
+		position: relative;
+		padding: 16px 20px 16px 0px;
+	}
+	.db-div2{
+		position: relative;
+		padding: 13px 20px 16px 26px;
+	}
+	.db-div3{
+		position: relative;
+		padding: 13px 20px 16px 30px;
+	}
+	.db-div4{
+		padding: 13px 20px 16px 30px;
 	}
 	.db-div1:before{
 		position: absolute;

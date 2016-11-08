@@ -1,5 +1,5 @@
 <section>	
-	<div class="container container_style4">
+	<div class="container container_style4 df-bg">
 		<div class="row">
 			<div class="col-md-12">
 				<h3 class="df-cosm-caption">Косметика</h3>

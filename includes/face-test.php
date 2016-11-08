@@ -20,14 +20,27 @@
 					</div>
 				</div>
 			</div>
-			<div class="item">
-				
-				
+				<div class="item" style="background:url(../img/slide.jpg);" >
+				<div class="dd-slide-txt-wrap">
+					<div class="dd-first-txt">
+						Только в ноябре специальные условия<br> на процедуру
+					</div>
+					<div class="dd-second-txt">
+						RF - Лифтинг
+					</div>
+				</div>
 			</div>
-			<div class="item">
-				
-				
+				<div class="item" style="background:url(../img/slide.jpg);" >
+				<div class="dd-slide-txt-wrap">
+					<div class="dd-first-txt">
+						Только в ноябре специальные условия<br> на процедуру
+					</div>
+					<div class="dd-second-txt">
+						RF - Лифтинг
+					</div>
+				</div>
 			</div>
+
 		</div>
 		<div class="dd-face-content-wrap">
 			<div class="dd-first-ul">
@@ -155,17 +168,17 @@
 				<table class="dd-my-table">
 					<tr>
 						<td class="dd-f-td">RF-лифтинг: лицо</td>
-						<td class="dd-n-td">3900 Р</td>
+						<td class="dd-n-td dd-n-td3">3900 Р</td>
 						<!-- <td class="dd-hr"><hr></td> -->
 						<!-- <td>3900 &#8381;</td> -->
 					</tr>
 					<tr>
-						<td class="dd-f-td">RF-лифтинг: лицо</td>
-						<td class="dd-n-td">3900 Р</td>
+						<td class="dd-f-td">RF-лифтинг: шея и декольте</td>
+						<td class="dd-n-td ">2100-3900 Р</td>
 					</tr>
 					<tr>
-						<td class="dd-f-td dd-f-td2">RF-лифтинг: лицо</td>
-						<td class="dd-n-td dd-n-td2">3900 Р</td>
+						<td class="dd-f-td dd-f-td2">RF-лифтинг: проблемная зона</td>
+						<td class="dd-n-td dd-n-td2">1100 Р</td>
 					</tr>
 				</table>
 				<div class="clearfix"></div>
