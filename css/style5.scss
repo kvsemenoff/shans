@@ -88,48 +88,42 @@
 	font-family: "Conv_pt-serif_[allfont.ru]";
 	font-size: 42px;
 	text-align: center;
-	margin: 20px 0;
+	margin: 15px 0;//29
+}
+.df-about-caption{
+	margin-top: 0px;
+}	
+.df-art-box{
+	background: #ebebeb;
+	border-radius: 5px;
+	//padding: 0px 20px;
+	margin-bottom: 20px;
+	ul{
+		padding: 19px 30px 14px 31px;
+		li a{
+			 font-family: "Lato-Bold"; font-size: 15px;color:#161616;
+			 display: inline-block;
+			 padding: 9px 0;
+		}
+	}
+	.df-last {
+		background: #7ec142; color:#fff;font-family: "Lato-Bold"; font-size: 15px;
+		width: 100%;
+		height: 60px;
+		display: inline-block;
+		padding:10px 45px 10px 30px;
+		margin-top: 32px;
+		border-radius: 0px 0px 5px 5px;
+	}
+}	
+.df-about-text{
+	font-size: 15px; line-height: 20px; color:#161616;
+	font-family: "OpenSans-Regular";		
+	p{
+		margin-bottom: 20px;
+	}
 }
 
-.df-article{
-	width: 100%;
-	min-width: 245px;
-	.df-article-caption{
-		
-	}
-	.df-art-box{
-		background: #ebebeb;
-		border-radius: 5px;
-		//padding: 0px 20px;
-		ul{
-			padding: 14px 30px 14px 31px;
-			li a{
-				 font-family: "Lato-Bold"; font-size: 15px;color:#161616;
-				 display: inline-block;
-				 padding: 9px 0;
-			}
-		}
-		.df-last {
-			background: #7ec142; color:#fff;font-family: "Lato-Bold"; font-size: 15px;
-			width: 100%;
-			height: 60px;
-			display: inline-block;
-			padding:10px 45px 10px 30px;
-			margin-top: 32px;
-			border-radius: 0px 0px 5px 5px;
-		}
-	}
-}
-
-.df-about{	
-	.df-about-text{
-		font-size: 15px; line-height: 20px; color:#161616;
-		font-family: "OpenSans-Regular";		
-		p{
-			margin-bottom: 20px;
-		}
-	}
-}
 .df-img-about{
 	img{
 		width:100%;
@@ -295,18 +289,19 @@
 		}
 	}
 
-	.df-article{
+	.df-art-box{
 	width: 20%;
-	float: right;
+	//float: right;
 	min-width: 245px;
+	float: right;
 	.df-article-caption{
 		margin-bottom: 35px;
 	}
 	// margin-left: 2%;
 	}
-	.df-about{
-		float: left;
-		width: 70%;
+	.df-about-text{
+		//float: left;
+		
 		.df-about-caption{
 			margin-bottom: 25px;
 		}
@@ -336,6 +331,15 @@
 		.dfimg4, .dfimg5, .dfimg6{
 			width: 33.27%;
 		}
+	}
+	.df-article-caption{
+	padding-left: 42px;
+	}
+	.df-about-caption{
+		padding-left: 55px;
+	}
+	.df-article-caption, .df-about-caption, .df-cosm-caption{		
+		margin: 29px 0;//29
 	}
 
 //cosmetic.php

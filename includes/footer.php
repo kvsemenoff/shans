@@ -1,6 +1,6 @@
 <!-- <section class="dd-footer"> -->
     <!-- <div class="container"> -->
-<section>
+<section class="dd-footer">
 	<div class="container container_style4">
 		<div class="row">
 			<div class="col-md-12">
@@ -53,8 +53,7 @@
 		</div>
 	</div>
 </section>
-	<!-- </div> -->
-<!-- </section> -->
+
 
 	
 </body>
