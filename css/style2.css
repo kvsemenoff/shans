@@ -5,7 +5,8 @@
 @import url(style4.css);
 @import url(fonts.css);
 .db-lvbox {
-  text-align: center; }
+  text-align: center;
+  margin-top: 40px; }
 
 .db-lv-list {
   display: block;
