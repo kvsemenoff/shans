@@ -83,6 +83,11 @@
 	}
 
 }
+.dg-tab{
+	max-width: 455px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
 .dd-search-box{
     width: 100%;
 	.dd-form{
@@ -179,7 +184,7 @@
 		border-radius: 5px;
   		background-color: rgb(40, 39, 97);
   		padding: 25px 0;
-  		margin-top: 70px;
+  		margin: 35px 0;
 	}
 
 	.result{
