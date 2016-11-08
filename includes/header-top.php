@@ -32,5 +32,4 @@
 
 	<script src="js/responsiveTabs.js"></script>
 	<script src="js/jquery.maskedinput.min.js"></script>
-	<script src="js/common.js"></script>
 	<script src="https://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>
