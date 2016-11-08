@@ -43,12 +43,31 @@
 		</div>
 	</div>
 </section>
-	<div class="df-img-about">
-		<img src="/img/dfimg1.jpg" alt="" class="dfimg1">
-		<img src="/img/dfimg2.jpg" alt="" class="dfimg2">
-		<img src="/img/dfimg3.jpg" alt="" class="dfimg3">
-		<img src="/img/dfimg4.jpg" alt="" class="dfimg4">
-		<img src="/img/dfimg5.jpg" alt="" class="dfimg5">
-		<img src="/img/dfimg6.jpg" alt="" class="dfimg6">
+
+	<div class="df-img-about df-margintop">
+		<div class="w20">
+			<img src="/img/dfimg1.png" alt="" class="">			
+		</div>
+		<div class="w40">
+			<img src="/img/dfimg2.png" alt="" class="">
+		</div>
+		<div class="w40">
+			<img src="/img/dfimg3.png" alt="" class="">
+		</div>
+
+		<div class="clear"></div>
+	</div>
+	<div class="df-img-about df-mtop">
+		<div class="w33">
+			<img src="/img/dfimg4.png" alt="" class="">			
+		</div>
+		<div class="w33">
+			<img src="/img/dfimg5.png" alt="" class="">
+		</div>
+		<div class="w33">
+			<img src="/img/dfimg6.png" alt="" class="">
+		</div>
 		<div class="clear"></div>
 	</div>	
+
+	
