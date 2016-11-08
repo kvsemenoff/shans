@@ -93,6 +93,12 @@ h1 {
 .da-logobox {
   text-align: center; }
 
+.da-head1 {
+  background: url(../img/da-head1.jpg) no-repeat top center; }
+
+.da-head2 {
+  background: url(../img/da-head2.jpg) no-repeat top center; }
+
 @media only screen and (min-width: 992px) {
   /*margins*/
   .da-margin-right7 {
@@ -139,7 +145,10 @@ h1 {
     position: fixed;
     width: 100%;
     height: 60px;
-    z-index: 9999; }
+    z-index: 9999;
+    box-shadow: 0 2px 5px #aaa;
+    z-index: 9999;
+    background: #fff; }
 
   .da-fixed-menu2 {
     position: fixed;
@@ -162,12 +171,15 @@ h1 {
     width: 100%;
     padding-left: 0px;
     border: none;
-    background: #fff;
+    background: transparent;
     padding-right: 0px; }
     .main-menu li {
       display: inline-block; }
     .main-menu li:first-child {
       display: none; }
+
+  .main-menu_style2 {
+    background: #fff; }
 
   .container_style2 {
     padding-left: 25px !important;
