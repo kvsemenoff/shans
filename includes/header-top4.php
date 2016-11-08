@@ -14,7 +14,7 @@
 	<script src="libs/owl.carousel/owl.carousel.js"></script>
 	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
 	<script src="libs/wow/wow.min.js"></script>
-	<script src="libs/drift/Drift.min.js"></script>
+	<script src="libs/dr/drift.min.js"></script>
 	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
 	<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
 	
