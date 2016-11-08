@@ -20,14 +20,27 @@
 					</div>
 				</div>
 			</div>
-			<div class="item">
-				
-				
+				<div class="item" style="background:url(../img/slide.jpg);" >
+				<div class="dd-slide-txt-wrap">
+					<div class="dd-first-txt">
+						Только в ноябре специальные условия<br> на процедуру
+					</div>
+					<div class="dd-second-txt">
+						RF - Лифтинг
+					</div>
+				</div>
 			</div>
-			<div class="item">
-				
-				
+				<div class="item" style="background:url(../img/slide.jpg);" >
+				<div class="dd-slide-txt-wrap">
+					<div class="dd-first-txt">
+						Только в ноябре специальные условия<br> на процедуру
+					</div>
+					<div class="dd-second-txt">
+						RF - Лифтинг
+					</div>
+				</div>
 			</div>
+
 		</div>
 		<div class="dd-face-content-wrap">
 			<div class="dd-first-ul">
