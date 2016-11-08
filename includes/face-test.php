@@ -40,7 +40,6 @@
 					</div>
 				</div>
 			</div>
-
 		</div>
 		<div class="dd-face-content-wrap">
 			<div class="dd-first-ul">
