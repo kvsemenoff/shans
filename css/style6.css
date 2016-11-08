@@ -4,6 +4,14 @@
 .nopadding {
   padding: 0; }
 
+@media only screen and (min-width: 1199px) {
+  .search-form {
+    padding: 34px 70px 34px 37px !important; } }
+@media only screen and (max-width: 1199px) {
+  .dg-sf {
+    padding: 10px 0 !important;
+    text-align: left !important;
+    margin: 0 !important; } }
 @media (min-width: 768px) and (max-width: 992px) {
   .dg-actions h2 {
     padding: 0 15px !important; } }
@@ -34,54 +42,98 @@
   .dg-articles .imgbox-big img {
     width: 100%;
     height: auto; } }
-.dg-page .dg-width {
-  width: 774px;
-  margin: 0 auto; }
-.dg-page h1 {
-  font-size: 42px;
-  font-family: "pt-serif";
-  color: #161616;
-  line-height: 32px;
-  text-align: center;
-  padding: 35px 0; }
-.dg-page p {
-  font-size: 15px;
-  font-family: "OpenSans-Regular";
-  color: #161616;
-  line-height: 20px;
-  text-align: left; }
-.dg-page h2 {
-  font-size: 22px;
-  font-family: "pt-serif";
-  color: #161616;
-  line-height: 1.455;
-  max-width: 484px;
-  padding: 34px 0;
-  text-align: center;
-  margin: 0 auto; }
-.dg-page img {
-  padding: 25px 0; }
-.dg-page h3 {
-  font-size: 15px;
-  font-family: "OpenSans-Bold";
-  color: #161616;
-  line-height: 1.333;
-  text-align: left;
-  padding: 28px 0; }
-.dg-page .oznak {
-  font-size: 22px;
-  font-family: "pt-serif";
-  color: white;
-  line-height: 1.455;
-  text-align: center;
-  border-radius: 5px;
-  background-color: #282761;
-  padding: 25px 0;
-  margin-top: 70px; }
-.dg-page .result h2 {
-  text-align: left;
-  margin: 0;
-  padding: 16px 0 14px 0; }
+.dd-search-box {
+  width: 100%; }
+  .dd-search-box .dd-form {
+    display: block;
+    position: relative; }
+    .dd-search-box .dd-form input[type="text"] {
+      outline: none;
+      width: 100%;
+      height: 31px;
+      border: 1px solid #cbd1d6;
+      border-radius: 9px;
+      line-height: 51px;
+      padding: 0px 17px;
+      z-index: 10;
+      font-size: 13px;
+      color: #161616;
+      max-height: 100%;
+      max-width: 100%;
+      letter-spacing: .02em;
+      font-family: "OpenSans-Regular"; }
+    .dd-search-box .dd-form input[type="submit"] {
+      position: absolute;
+      z-index: 50;
+      width: 17px;
+      height: 17px;
+      border: none;
+      right: 11px;
+      top: 8px;
+      background: url(../img/dd-lupa.png) no-repeat top center; }
+
+.dg-page {
+  padding-top: 30px; }
+  .dg-page .dg-width {
+    width: 774px;
+    margin: 0 auto; }
+  .dg-page h1 {
+    font-size: 42px;
+    font-family: "pt-serif";
+    color: #161616;
+    line-height: 32px;
+    text-align: center;
+    padding: 35px 0; }
+  .dg-page p {
+    font-size: 15px;
+    font-family: "OpenSans-Regular";
+    color: #161616;
+    line-height: 20px;
+    text-align: left; }
+  .dg-page h2 {
+    font-size: 22px;
+    font-family: "pt-serif";
+    color: #161616;
+    line-height: 1.455;
+    max-width: 484px;
+    padding: 34px 0; }
+  .dg-page .dg-sf {
+    font-size: 22px;
+    font-family: "pt-serif";
+    color: #161616;
+    line-height: 1.155;
+    max-width: 484px;
+    padding: 0;
+    text-align: right;
+    margin: 0 auto;
+    padding-right: 7px; }
+  .dg-page img {
+    padding: 25px 0; }
+  .dg-page h3 {
+    font-size: 15px;
+    font-family: "OpenSans-Bold";
+    color: #161616;
+    line-height: 1.333;
+    text-align: left;
+    padding: 28px 0; }
+  .dg-page .search-form {
+    padding: 34px 0; }
+  .dg-page .oznak {
+    font-size: 22px;
+    font-family: "pt-serif";
+    color: white;
+    line-height: 1.455;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #282761;
+    padding: 25px 0;
+    margin-top: 70px; }
+  .dg-page .result {
+    min-height: 734px; }
+    .dg-page .result h2 {
+      text-align: left;
+      margin: 0;
+      padding: 16px 0 14px 0; }
 
 .dg-articles .col-md-6:nth-child(2) {
   padding-left: 30px; }
@@ -127,7 +179,7 @@
   .dg-articles .imgbox-big .gradient {
     display: block;
     position: absolute;
-    top: -4px;
+    top: 0px;
     left: 0;
     width: 100%;
     height: 100%;
