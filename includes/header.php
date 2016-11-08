@@ -1,12 +1,11 @@
 <section class="da-logo">
     <div class="da-logobox"><a href="/"><img src="img/da-logo.png" alt=""></a></div>
 </section>
-<section class="da-menu">
+<section class="da-menu da-menu_style2">
     <div class="da-point">
     	<div class="container container_style2">
             <div class="row">
                 <div class="col-md-12 col-xs-12">
-
                     <div class="anz-menu">
                         <input type="checkbox" id="check_1" class=""/>
                         <label class="anz-menu-ch" for="check_1"><i class="fa fa-bars" aria-hidden="true"></i></label>
@@ -38,7 +37,7 @@
         // alert(1);
         $(document).scroll(function(){
             // alert(1);
-            if($('body').scrollTop()>130){
+            if($('body, html').scrollTop()>130){
                 $('.da-point').addClass('da-fixed-menu2');
             } else {
                 $('.da-point').removeClass('da-fixed-menu2');

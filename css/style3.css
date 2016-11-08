@@ -43,12 +43,21 @@ h1 {
 
 .anz-menu-ch {
   display: inline-block;
-  position: relative;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 0px;
   font-size: 20px;
   color: #161616; }
   .anz-menu-ch i {
     font-size: 20px;
     color: #161616; }
+
+.da-menu_style2 div[class|="col"] {
+  position: static; }
+.da-menu_style2 .anz-menu-ch {
+  top: 75px;
+  right: 15px; }
 
 .anz-menu-ch1 {
   text-align: right;
@@ -99,6 +108,9 @@ h1 {
 .da-head2 {
   background: url(../img/da-head2.jpg) no-repeat top center; }
 
+@media only screen and (min-width: 768px) {
+  .da-menu_style2 .anz-menu-ch {
+    right: 50px; } }
 @media only screen and (min-width: 992px) {
   /*margins*/
   .da-margin-right7 {
@@ -138,7 +150,7 @@ h1 {
     display: none; }
 
   .da-menu {
-    height: 60px;
+    height: 70px;
     width: 100%; }
 
   .da-fixed-menu {
