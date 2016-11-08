@@ -9,7 +9,7 @@ $(document).ready(function(){
 
     loop:true,//Зацикливаем слайдер
     nav:true, //Навигация включена
-    autoplay:false,//автозапуск
+    autoplay:true,//автозапуск
     smartSpeed:1000,//Время движения
     margin:0,
     navText:['<span class="prev-ars1"></span>','<span class="next-ars1"></span>'],
