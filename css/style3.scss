@@ -105,6 +105,9 @@ h1{
 				text-align: right;
 			}
 		}
+		// .main-menu_style2{
+		// 	background: #fff;
+		// }
 	/*menu styles*/
 .da-logo{
 	padding: 30px 0 15px 0;
@@ -112,8 +115,12 @@ h1{
 .da-logobox{
 	text-align: center;
 }
-
-
+.da-head1{
+	background: url(../img/da-head1.jpg) no-repeat top center;
+}
+.da-head2{
+	background: url(../img/da-head2.jpg) no-repeat top center;
+}
 @media only screen and (min-width : 320px) {
 }
 
@@ -148,6 +155,7 @@ h1{
 		}
 	/*margins*/
 	
+	
 	.da-green{
 		width: 100%;
 		height: 10px;
@@ -175,6 +183,9 @@ h1{
 		width: 100%;
 		height: 60px;
 		z-index: 9999;
+		box-shadow: 0 2px 5px #aaa;
+		z-index: 9999;
+		background: #fff;
 	}
 	.da-fixed-menu2{
 		position: fixed;
@@ -198,7 +209,7 @@ h1{
 		width: 100%;
 		padding-left: 0px;
 		border: none;
-		background: #fff;
+		background: transparent;
 		padding-right: 0px;
 		li{
 			// line-height: 36px;
@@ -208,6 +219,9 @@ h1{
 		li:first-child{
 				display: none;
 			}
+	}
+	.main-menu_style2{
+		background: #fff;
 	}
 
 	//970px //920px
