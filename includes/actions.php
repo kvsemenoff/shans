@@ -4,7 +4,18 @@
 		<div class="row">
 			<h1>Акции</h1>
 			<div class="col-md-12">
-				tabs
+				<div class="df-tab dg-tab">				
+					<div class="df-tab-first">
+						<ul>
+							<li class="active">Все</li>
+							<li>Лицо</li>
+							<li>Волосы</li>
+							<li>Тело</li>
+							<li>Косметика</li>
+							<div class="clear"></div>	
+						</ul>
+					</div>							
+				</div>
 			</div>
 			<div class="dg-actions">
 				<div class="col-md-4 col-sm-6 col-xs-12 mh">
