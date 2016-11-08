@@ -28,7 +28,7 @@
 				</div>
 				<div class="df-cosmetics">
 					<div class="df-img-cosm">
-						<img src="/img/df-cosm1.png" alt="" class="img-responsive">
+						<a href="#"><img src="/img/df-cosm1.png" alt="" class="img-responsive"></a>
 					</div>
 					<div class="df-text-box">
 						<h4 class="df-text-caption"><a href="#">Body Restorative Milk - Успокаивающее молочко для тела после загара</a></h4>
@@ -37,7 +37,7 @@
 				</div>
 				<div class="df-cosmetics">
 					<div class="df-img-cosm">
-						<img src="/img/df-cosm2.png" alt="" class="img-responsive">
+						<a href="#"><img src="/img/df-cosm2.png" alt="" class="img-responsive"></a>
 					</div>
 					<div class="df-text-box">
 						<h4 class="df-text-caption"><a href="#">Face Restorative Cream - Успокаивающий крем для лица после загара</a></h4>
@@ -47,7 +47,7 @@
 				</div>			
 				<div class="df-cosmetics dflast">
 					<div class="df-img-cosm">
-						<img src="/img/df-cosm3.png" alt="" class="img-responsive">
+						<a href="#"><img src="/img/df-cosm3.png" alt="" class="img-responsive"></a>
 					</div>
 					<div class="df-text-box">
 						<h4 class="df-text-caption"><a href="#">Prolongateur de bronzage - Эмульсия для продления загара</a></h4>
@@ -56,7 +56,7 @@
 				</div>
 				<div class="df-cosmetics">
 					<div class="df-img-cosm">
-						<img src="/img/df-cosm1.png" alt="" class="img-responsive">
+						<a href="#"><img src="/img/df-cosm1.png" alt="" class="img-responsive"></a>
 					</div>
 					<div class="df-text-box">
 						<h4 class="df-text-caption"><a href="#">Body Restorative Milk - Успокаивающее молочко для тела после загара</a></h4>
@@ -65,7 +65,7 @@
 				</div>
 				<div class="df-cosmetics">
 					<div class="df-img-cosm">
-						<img src="/img/df-cosm2.png" alt="" class="img-responsive">
+						<a href="#"><img src="/img/df-cosm2.png" alt="" class="img-responsive"></a>
 					</div>
 					<div class="df-text-box">
 						<h4 class="df-text-caption"><a href="#">Face Restorative Cream - Успокаивающий крем для лица после загара</a></h4>
@@ -75,7 +75,7 @@
 				</div>			
 				<div class="df-cosmetics dflast">
 					<div class="df-img-cosm">
-						<img src="/img/df-cosm3.png" alt="" class="img-responsive">
+						<a href="#"><img src="/img/df-cosm3.png" alt="" class="img-responsive"></a>
 					</div>
 					<div class="df-text-box">
 						<h4 class="df-text-caption"><a href="#">Prolongateur de bronzage - Эмульсия для продления загара</a></h4>
