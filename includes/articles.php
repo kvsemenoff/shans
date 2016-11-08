@@ -4,7 +4,7 @@
 		<div class="row">
 			<h1>Статьи</h1>
 
-			<div class="col-md-12 center">
+			<div class="col-md-12">
 				<div class="df-tab dg-tab">				
 					<div class="df-tab-first">
 						<ul>

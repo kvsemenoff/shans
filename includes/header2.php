@@ -8,7 +8,7 @@
                         <label class="anz-menu-ch" for="check_1"><i class="fa fa-bars" aria-hidden="true"></i></label>
                         <div class="anz-perspective">
                             <div class="menu-list-pressed">
-                                <ul class="main-menu">
+                                <ul class="main-menu main-menu_style2">
                                     <li><label class="anz-menu-ch1" for="check_1"><i class="fa fa-times" aria-hidden="true"></i></label></li>
                                     <!-- <li><a href="/"><img src="" alt=""></a></li> -->
                                     <li class="da-margin-right23"><a href="#">О центре</a></li>
