@@ -7,7 +7,7 @@
 					<div class="df-tab-first">
 						<h4 class="df-tab-cap">Выберите применение косметики:</h4>
 						<ul>
-							<li>Все</li>
+							<li class="active">Все</li>
 							<li>Лицо</li>
 							<li>Волосы</li>
 							<li>Тело</li>
@@ -17,7 +17,7 @@
 					<div class="df-tab-second">
 						<h4 class="df-tab-cap2">Выберите бренд: </h4>
 						<ul>					
-							<li>Все  БРЕНДЫ</li>
+							<li class="active">Все  БРЕНДЫ</li>
 							<li>KO KO dermavidual</li>
 							<li>Anna Lotan</li>
 							<li>Christina</li>

@@ -65,40 +65,41 @@
   font-family: "Conv_pt-serif_[allfont.ru]";
   font-size: 42px;
   text-align: center;
-  margin: 20px 0; }
+  margin: 15px 0; }
 
-.df-article {
-  width: 100%;
-  min-width: 245px; }
-  .df-article .df-art-box {
-    background: #ebebeb;
-    border-radius: 5px; }
-    .df-article .df-art-box ul {
-      padding: 14px 30px 14px 31px; }
-      .df-article .df-art-box ul li a {
-        font-family: "Lato-Bold";
-        font-size: 15px;
-        color: #161616;
-        display: inline-block;
-        padding: 9px 0; }
-    .df-article .df-art-box .df-last {
-      background: #7ec142;
-      color: #fff;
+.df-about-caption {
+  margin-top: 0px; }
+
+.df-art-box {
+  background: #ebebeb;
+  border-radius: 5px;
+  margin-bottom: 20px; }
+  .df-art-box ul {
+    padding: 19px 30px 14px 31px; }
+    .df-art-box ul li a {
       font-family: "Lato-Bold";
       font-size: 15px;
-      width: 100%;
-      height: 60px;
+      color: #161616;
       display: inline-block;
-      padding: 10px 45px 10px 30px;
-      margin-top: 32px;
-      border-radius: 0px 0px 5px 5px; }
+      padding: 9px 0; }
+  .df-art-box .df-last {
+    background: #7ec142;
+    color: #fff;
+    font-family: "Lato-Bold";
+    font-size: 15px;
+    width: 100%;
+    height: 60px;
+    display: inline-block;
+    padding: 10px 45px 10px 30px;
+    margin-top: 32px;
+    border-radius: 0px 0px 5px 5px; }
 
-.df-about .df-about-text {
+.df-about-text {
   font-size: 15px;
   line-height: 20px;
   color: #161616;
   font-family: "OpenSans-Regular"; }
-  .df-about .df-about-text p {
+  .df-about-text p {
     margin-bottom: 20px; }
 
 .df-img-about img {
@@ -220,18 +221,15 @@
     .df-contacts .df-box2 {
       width: 40%; }
 
-  .df-article {
+  .df-art-box {
     width: 20%;
-    float: right;
-    min-width: 245px; }
-    .df-article .df-article-caption {
+    min-width: 245px;
+    float: right; }
+    .df-art-box .df-article-caption {
       margin-bottom: 35px; }
 
-  .df-about {
-    float: left;
-    width: 70%; }
-    .df-about .df-about-caption {
-      margin-bottom: 25px; }
+  .df-about-text .df-about-caption {
+    margin-bottom: 25px; }
 
   .df-max-width {
     width: 100%;
@@ -254,7 +252,16 @@
     .df-img-about .dfimg3 {
       width: 37%; }
     .df-img-about .dfimg4, .df-img-about .dfimg5, .df-img-about .dfimg6 {
-      width: 33.27%; } }
+      width: 33.27%; }
+
+  .df-article-caption {
+    padding-left: 42px; }
+
+  .df-about-caption {
+    padding-left: 55px; }
+
+  .df-article-caption, .df-about-caption, .df-cosm-caption {
+    margin: 29px 0; } }
 @media only screen and (min-width: 1248px) {
   .df-contacts {
     max-width: 630px;
