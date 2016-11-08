@@ -15,6 +15,20 @@
 }
 .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
 }
+
+@media only screen and (min-width: 1199px){
+	.search-form{
+		padding: 34px 70px 34px 37px !important;
+	}
+}	
+@media only screen and (max-width: 1199px){
+	.dg-sf{
+        padding: 10px 0 !important;
+        text-align: left !important;
+        margin: 0 !important;
+	}
+}
+
 @media (min-width: 768px) and (max-width: 992px){
 	.dg-actions{
 		h2{
@@ -69,7 +83,46 @@
 	}
 
 }
+.dg-tab{
+	max-width: 455px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+.dd-search-box{
+    width: 100%;
+	.dd-form{
+	    display: block;
+	    position: relative;
+		input[type="text"]{
+			outline: none;
+		    width: 100%;
+		    height: 31px;
+		    border: 1px solid #cbd1d6;
+		    border-radius: 9px;
+		    line-height: 51px;
+		    padding: 0px 17px;
+		    z-index: 10;
+		    font-size: 13px;
+		    color: #161616;
+		    max-height: 100%;
+		    max-width: 100%;
+		    letter-spacing: .02em;
+		    font-family: "OpenSans-Regular";
+		}
+		input[type="submit"]{
+		    position: absolute;
+		    z-index: 50;
+		    width: 17px;
+		    height: 17px;
+		    border: none;
+		    right: 11px;
+		    top: 8px;
+		    background: url(../img/dd-lupa.png) no-repeat top center;
+		}
+	}
+}
 .dg-page{
+	padding: 30px 0;
 	.dg-width{
 		width: 774px;
 		margin: 0 auto;
@@ -96,8 +149,17 @@
 	  line-height: 1.455;
 	  max-width: 484px;
 	  padding: 34px 0;
-	  text-align: center;
+	}
+	.dg-sf{
+	  font-size: 22px;
+	  font-family: "pt-serif";
+	  color: rgb(22, 22, 22);
+	  line-height: 1.155;
+	  max-width: 484px;
+	  padding: 0;
+	  text-align: right;
 	  margin: 0 auto;
+	  padding-right: 7px;
 	}
 	img{
 		padding: 25px 0;
@@ -110,6 +172,9 @@
 	  text-align: left;
 	  padding: 28px 0;
 	}
+	.search-form{
+		padding: 34px 0;
+	}
 	.oznak{
 		font-size: 22px;
 		font-family: "pt-serif";
@@ -119,10 +184,11 @@
 		border-radius: 5px;
   		background-color: rgb(40, 39, 97);
   		padding: 25px 0;
-  		margin-top: 70px;
+  		margin-top: 25px;
 	}
 
 	.result{
+		min-height: 734px;
 		h2{
 			text-align: left;
 			margin: 0;
@@ -188,7 +254,7 @@
 		.gradient{
 			display:block;
 			position:absolute;
-			top: -4px;
+			top: 0px;
 			left:0;
 			width: 100%;
 			height: 100%;

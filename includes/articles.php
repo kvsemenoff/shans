@@ -1,10 +1,22 @@
 <section class="dg-page">
 	<div class="container container_style2">
-	<!-- <div class="container dg-width"> -->
+	<div class="container dg-width">
 		<div class="row">
 			<h1>Статьи</h1>
+
 			<div class="col-md-12">
-				tabs
+				<div class="df-tab dg-tab">				
+					<div class="df-tab-first">
+						<ul>
+							<li class="active">Все</li>
+							<li>Лицо</li>
+							<li>Волосы</li>
+							<li>Тело</li>
+							<li>Косметика</li>
+							<div class="clear"></div>	
+						</ul>
+					</div>							
+				</div>
 			</div>
 
 			<div class="dg-articles">

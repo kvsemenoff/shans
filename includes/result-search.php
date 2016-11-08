@@ -5,8 +5,20 @@
 			<div class="col-md-12">
 				<h1>Результаты поиска</h1>
 				<div class="search-form">
-					<h2>Вы искали: </h2>
+					<div class="col-md-3">
+						<h2 class="dg-sf">Вы искали: </h2>
+					</div>
+					<div class="col-md-9 nopadding">
+						<div class="dd-search-box">
+							<form class="dd-form" action="#">
+								<input type="text" placeholder="Введите слово для поиска">
+								<input type="submit" value="">
+							</form>
+						</div>
+					</div>
 				</div>
+				<div class="clear"></div>
+				<hr>
 				<div class="result">
 					<h2>Избавляем от нежелательных волос навсегда!</h2>
 					<p>Лазерная эпиляция в Тольятти в Центре косметологии «Шанс» позволит навсегда избавиться от 90% волос, избежав неприятных побочных эффектов.</p>

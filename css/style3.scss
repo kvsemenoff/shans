@@ -105,11 +105,22 @@ h1{
 				text-align: right;
 			}
 		}
+		// .main-menu_style2{
+		// 	background: #fff;
+		// }
 	/*menu styles*/
-
-
-
-
+.da-logo{
+	padding: 30px 0 15px 0;
+}
+.da-logobox{
+	text-align: center;
+}
+.da-head1{
+	background: url(../img/da-head1.jpg) no-repeat top center;
+}
+.da-head2{
+	background: url(../img/da-head2.jpg) no-repeat top center;
+}
 @media only screen and (min-width : 320px) {
 }
 
@@ -121,6 +132,18 @@ h1{
 
 @media only screen and (min-width : 992px) {
 	/*margins*/
+		.da-margin-right7{
+			margin-right: 7px;
+		}
+		.da-margin-right16{
+			margin-right: 16px;
+		}
+		.da-margin-right21{
+			margin-right: 21px;
+		}
+		.da-margin-right20{
+			margin-right: 20px;
+		}
 		.da-margin-right23{
 			margin-right: 23px;
 		}
@@ -131,6 +154,23 @@ h1{
 			margin-right: 40px;
 		}
 	/*margins*/
+	
+	
+	.da-green{
+		width: 100%;
+		height: 10px;
+		background: url(../img/da-under-menu.jpg) no-repeat top center ;//linear-gradient(to right, #437f01 50%, #062c07 50%)
+	}
+	.da-style1{
+		a{
+			position: relative;
+			img{
+				position: relative;
+				transform: translate(0, 36%);
+			}
+		}
+	}
+
 	.anz-menu-ch1{
 		display: none;
 	}
@@ -142,6 +182,18 @@ h1{
 		position: fixed;
 		width: 100%;
 		height: 60px;
+		z-index: 9999;
+		box-shadow: 0 2px 5px #aaa;
+		z-index: 9999;
+		background: #fff;
+	}
+	.da-fixed-menu2{
+		position: fixed;
+		width: 100%;
+		height: 60px;
+		top: 0px;
+		background: #fff;
+		z-index: 9999;
 	}
 	.anz-perspective{
         position: static !important;
@@ -157,7 +209,7 @@ h1{
 		width: 100%;
 		padding-left: 0px;
 		border: none;
-		background: #fff;
+		background: transparent;
 		padding-right: 0px;
 		li{
 			// line-height: 36px;
@@ -167,6 +219,9 @@ h1{
 		li:first-child{
 				display: none;
 			}
+	}
+	.main-menu_style2{
+		background: #fff;
 	}
 
 	//970px //920px

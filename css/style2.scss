@@ -5,8 +5,19 @@
 @import "style4.css";
 @import "fonts.css";
 
-
-
+.db-margbott{
+	margin-bottom: 35px;
+}
+.db-rl-lift{
+	display: block;
+	width: 100%;
+	height: 150px;
+	float: none;
+	img{
+		width: 100%;
+		height: 100%;
+	}
+}
 .db-wrapp{
 	width: 100%;
 	background: #ebebeb;
@@ -26,12 +37,14 @@
 .db-div1, .db-div2, .db-div3, .db-div4{
 	display: block;
 	float: none;
-	width: 90%;
+	width: 100%;
+	min-height: 120px;
+	vertical-align: top;
 	text-align: left; 
 }
 .db-div1{
 	position: relative;
-	padding: 16px 20px 16px 0px;
+	padding: 15px;
 }
 .db-div1:before{
 	position: absolute;
@@ -44,7 +57,7 @@
 }
 .db-div2{
 	position: relative;
-	padding: 13px 20px 16px 26px;
+	padding: 15px;
 }
 .db-div2:before{
 	position: absolute;
@@ -57,7 +70,7 @@
 }
 .db-div3{
 	position: relative;
-	padding: 13px 20px 16px 30px;
+	padding: 15px;
 }
 .db-div3:before{
 	position: absolute;
@@ -69,7 +82,7 @@
     background: none;
 }
 .db-div4{
-	padding: 13px 20px 16px 30px;
+	padding: 15px;
 }
 .db-text{
 	font-family: "Lato-Bold";
@@ -89,6 +102,7 @@
 
 
 @media only screen and (min-width : 320px) {
+
 }
 
 @media only screen and (min-width : 480px) {
@@ -98,6 +112,16 @@
 		width: 49%;
 		text-align: left;
 	}
+	.db-rl-lift{
+		display: block;
+		width: 50%;
+		height: 150px;
+		float: left;
+		img{
+			width: 100%;
+			height: 100%;
+		}
+	}
 }
 
 @media only screen and (min-width : 768px) {
@@ -106,6 +130,21 @@
 		float: left;
 		width: 24.3%;
 		text-align: left;
+	}
+	.db-div1{
+		position: relative;
+		padding: 16px 20px 16px 0px;
+	}
+	.db-div2{
+		position: relative;
+		padding: 13px 20px 16px 26px;
+	}
+	.db-div3{
+		position: relative;
+		padding: 13px 20px 16px 30px;
+	}
+	.db-div4{
+		padding: 13px 20px 16px 30px;
 	}
 	.db-div1:before{
 		position: absolute;
@@ -138,6 +177,19 @@
 }
 
 @media only screen and (min-width : 992px) {
+	.db-margbott{
+		margin-bottom: 40px;
+	}
+	.db-rl-lift{
+		display: block;
+		width: 25%;
+		height: 150px;
+		float: left;
+		img{
+			width: 100%;
+			height: 100%;
+		}
+	}
 }
 
 @media only screen and (min-width : 1248px) {
