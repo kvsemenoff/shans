@@ -83,7 +83,6 @@
   padding-bottom: 36px; }
 
 .dd-slider-face .dd-slider .item {
-  height: 390px;
   width: 100%; }
   .dd-slider-face .dd-slider .item .dd-slide-txt-wrap {
     padding-top: 121px;
@@ -227,7 +226,6 @@
 .dd-slider-face2 .dd-slider .dd-logo-box {
   width: 280px; }
 .dd-slider-face2 .dd-slider .item {
-  height: 581px !important;
   width: 100%; }
   .dd-slider-face2 .dd-slider .item .dd-slide-txt-wrap2 {
     padding-left: 10px;
@@ -311,7 +309,6 @@
 
   /*=========================================*/
   .dd-slider-face .dd-slider .item {
-    height: 390px;
     width: 100%; }
     .dd-slider-face .dd-slider .item .dd-slide-txt-wrap .dd-first-txt {
       font-size: 22px; }
