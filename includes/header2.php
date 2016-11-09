@@ -1,4 +1,4 @@
-<section class="da-menu">
+<section class="da-menu da-menu_style">
     <div class="da-fixed-menu">
     	<div class="container container_style2">
             <div class="row">
@@ -28,3 +28,16 @@
     	</div>
     </div>
 </section>
+<script>
+    $(document).ready(function(){
+        // alert(1);
+        $(document).scroll(function(){
+            // alert(1);
+            if($('body').scrollTop()>2 || $('html').scrollTop()>2){
+                $('.da-fixed-menu').addClass('da-fixed-menu_style');
+            } else {
+                $('.da-fixed-menu').removeClass('da-fixed-menu_style');
+            }
+        });
+    });
+</script>
