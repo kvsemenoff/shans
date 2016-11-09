@@ -53,7 +53,7 @@
 					    background: url(../img/dd-lupa.png) no-repeat top center;
 					}
 					input[type="text"]:focus{
-						border:2px solid #7EC142;
+						border:2px solid #7EC142 !important;
 					}
 				}
 			}
@@ -615,11 +615,13 @@
 	.dd-sub-menu-wrapper{
 		.dd-sub-menu{
 			text-align: center;
-			padding-top:25px;
+			padding-top:31px;
+			padding-bottom:15px;
 			ul{
 				li{
 					display: inline-block;
 					margin-bottom: 20px;
+					margin-left: 16px;
 					a{
 						text-transform: uppercase;
 						font-family: "Lato-Bold";

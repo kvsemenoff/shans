@@ -11,7 +11,7 @@
 					<div class="col-md-9 nopadding">
 						<div class="dd-search-box">
 							<form class="dd-form" action="#">
-								<input type="text" placeholder="Введите слово для поиска">
+								<input class="dd-form-input" type="text" placeholder="Введите слово для поиска">
 								<input type="submit" value="">
 							</form>
 						</div>

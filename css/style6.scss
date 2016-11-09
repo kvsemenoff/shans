@@ -96,7 +96,7 @@
 }
 .dd-search-box{
     width: 100%;
-	.dd-form{
+    .dd-form{
 	    display: block;
 	    position: relative;
 		input[type="text"]{
@@ -125,8 +125,12 @@
 		    top: 8px;
 		    background: url(../img/dd-lupa.png) no-repeat top center;
 		}
+		input[type="text"]:focus{
+			border:2px solid #7EC142 !important;
+		}
 	}
 }
+
 .dg-art-a{
 	display: block;
 	font-size: 15px;
@@ -190,6 +194,7 @@
 	.search-form{
 		padding: 34px 0;
 	}
+
 	.oznak{
 		display: block;
 		font-size: 22px;
