@@ -55,12 +55,39 @@
 .db-margbott {
   margin-bottom: 35px; }
 
-.db-rl-lift {
+.db-rl-lift1 {
   display: block;
   width: 100%;
   height: auto;
   float: none; }
-  .db-rl-lift img {
+  .db-rl-lift1 img {
+    width: 100%;
+    height: auto; }
+
+.db-rl-lift2 {
+  display: block;
+  width: 100%;
+  height: auto;
+  float: none; }
+  .db-rl-lift2 img {
+    width: 100%;
+    height: auto; }
+
+.db-rl-lift3 {
+  display: block;
+  width: 100%;
+  height: auto;
+  float: none; }
+  .db-rl-lift3 img {
+    width: 100%;
+    height: auto; }
+
+.db-rl-lift4 {
+  display: block;
+  width: 100%;
+  height: auto;
+  float: none; }
+  .db-rl-lift4 img {
     width: 100%;
     height: auto; }
 
@@ -185,14 +212,41 @@
     width: 49%;
     text-align: left; }
 
-  .db-rl-lift {
+  .db-rl-lift1 {
     display: block;
-    width: 50%;
-    height: 150px;
-    float: left; }
-    .db-rl-lift img {
+    width: 54%;
+    float: left;
+    font-size: 0px; }
+    .db-rl-lift1 img {
       width: 100%;
-      height: 100%; } }
+      height: auto; }
+
+  .db-rl-lift2 {
+    display: block;
+    width: 46%;
+    float: left;
+    font-size: 0px; }
+    .db-rl-lift2 img {
+      width: 100%;
+      height: auto; }
+
+  .db-rl-lift3 {
+    display: block;
+    width: 49.7%;
+    float: left;
+    font-size: 0px; }
+    .db-rl-lift3 img {
+      width: 100%;
+      height: auto; }
+
+  .db-rl-lift4 {
+    display: block;
+    width: 50.3%;
+    float: left;
+    font-size: 0px; }
+    .db-rl-lift4 img {
+      width: 100%;
+      height: auto; } }
 @media only screen and (min-width: 768px) {
   .db-div1, .db-div2, .db-div3, .db-div4 {
     float: left;
@@ -280,12 +334,39 @@
   .db-margbott {
     margin-bottom: 40px; }
 
-  .db-rl-lift {
+  .db-rl-lift1 {
+    display: block;
+    width: 27%;
+    height: 150px;
+    float: left; }
+    .db-rl-lift1 img {
+      width: 100%;
+      height: 100%; }
+
+  .db-rl-lift2 {
+    display: block;
+    width: 23%;
+    height: 150px;
+    float: left; }
+    .db-rl-lift2 img {
+      width: 100%;
+      height: 100%; }
+
+  .db-rl-lift3 {
     display: block;
     width: 25%;
     height: 150px;
     float: left; }
-    .db-rl-lift img {
+    .db-rl-lift3 img {
+      width: 100%;
+      height: 100%; }
+
+  .db-rl-lift4 {
+    display: block;
+    width: 25%;
+    height: 150px;
+    float: left; }
+    .db-rl-lift4 img {
       width: 100%;
       height: 100%; } }
 
