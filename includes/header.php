@@ -29,7 +29,9 @@
                 </div>
             </div>
     	</div>
-        <div class="da-green"></div>
+        <div class="da-green-outer">
+            <div class="da-green"></div>
+        </div>
     </div>
 </section>
 <script>

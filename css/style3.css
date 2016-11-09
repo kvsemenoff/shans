@@ -136,6 +136,12 @@ h1 {
     margin-right: 40px; }
 
   /*margins*/
+  .da-green-outer {
+    font-size: 0px;
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(to right, #437f01 50%, #062c07 50%); }
+
   .da-green {
     width: 100%;
     height: 10px;
