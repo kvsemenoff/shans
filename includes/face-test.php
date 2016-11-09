@@ -8,56 +8,216 @@
 		</div>
 	</div>
 
+<script>
+$(document).ready(function(){
+	$(".face-menu li a").hover(function(){
+		$(".submenu-box").css('display', 'none');
+		var mythis = $(this);
+		var box = mythis.attr('data-box');
+
+		mythis.parents('.dd-first-ul').find('.'+box).css('display', 'block');
+		
+	});		
+	$(".submenu-box").mouseleave(function(){
+		$(this).css('display', 'none');
+	});	
+	$(".dd-first-ul").mouseleave(function(){
+		$(this).find('.submenu-box').css('display', 'none');
+	});	
+	
+});
+</script>
 	<section class="dd-slider-face">
 		<div class="dd-slider">
-			<div class="item" style="background:url(../img/slide.jpg);" >
-				<div class="dd-slide-txt-wrap">
-					<div class="dd-first-txt">
-						Только в ноябре специальные условия<br> на процедуру
-					</div>
-					<div class="dd-second-txt">
-						RF - Лифтинг
-					</div>
-				</div>
+			<div class="item">
+				<img src="img/ss.jpg" alt="">
 			</div>
-				<div class="item" style="background:url(../img/slide.jpg);" >
-				<div class="dd-slide-txt-wrap">
-					<div class="dd-first-txt">
-						Только в ноябре специальные условия<br> на процедуру
-					</div>
-					<div class="dd-second-txt">
-						RF - Лифтинг
-					</div>
-				</div>
+			<div class="item">
+				<img src="img/ss.jpg" alt="">
 			</div>
-				<div class="item" style="background:url(../img/slide.jpg);" >
-				<div class="dd-slide-txt-wrap">
-					<div class="dd-first-txt">
-						Только в ноябре специальные условия<br> на процедуру
-					</div>
-					<div class="dd-second-txt">
-						RF - Лифтинг
-					</div>
-				</div>
+			<div class="item">
+				<img src="img/ss.jpg" alt="">
 			</div>
 		</div>
 		<div class="dd-face-content-wrap">
 			<div class="dd-first-ul">
-				<ul>
-					<li><a href="#">Инъекционная косметология</a></li>
-					<li><a href="#">Аппаратная косметология</a></li>
-					<li><a href="#">Лазерная косметология</a></li>
+				<ul class="face-menu">
+					<li><a href="#" data-box="m1">Инъекционная косметология</a></li>
+					<li><a href="#" data-box="m2">Аппаратная косметология</a></li>
+					<li><a href="#" data-box="m3">Лазерная косметология</a></li>
 				</ul>
-				<ul>
-					<li><a href="#">Нитевой лифтинг</a></li>
-					<li><a href="#">Фототерапия</a></li>
-					<li><a class="active2" href="#">Пилинги</a></li>
-					<li><a href="#">Уход за лицом и телом</a></li>
-					<li><a href="#">Трихология</a></li>
+				<div class="submenu-box m1">
+					<ul>
+						<li><a href="#">Пилинг “Anna Lotan” 16%</a></li>
+						<li><a href="#">Пилинг “Плакет” 20%</a></li>
+						<li><a href="#">Пилинг “Плакет” 40%</a></li>
+						<li><a href="#">Пилинг 70%</a></li>
+						<li><a href="#">Ретиноловый пилинг-комплекс из 4 процедур</a></li>
+						<li><a href="#">Миндальный пилинг</a></li>
+						<li><a href="#">Срединный пилинг ТСА</a></li>
+						<li><a href="#">Уход за проблемной и жирной кожей “Comodex”</a></li>
+						<li><a href="#">Пилинг РСА</a></li>
+						<li><a href="#">Пилинг Менемой</a></li>
+						<li><a href="#">Пилинг Свит Скин Систем 25%</a></li>
+						<li><a href="#">Пилинг Свит Скин Систем 35%</a></li>
+						<li><a href="#">Пилинг Биодрога</a></li>
+						<li><a href="#">Мезотерапия Сакура</a></li>
+					</ul>	
+				</div>
+				<div class="submenu-box m2">
+					<ul>
+						<li><a href="#">Пилинг “Anna Lotan” 16%</a></li>
+						<li><a href="#">Пилинг “Плакет” 20%</a></li>
+						<li><a href="#">Пилинг “Плакет” 40%</a></li>
+						<li><a href="#">Пилинг 70%</a></li>
+						<li><a href="#">Ретиноловый пилинг-комплекс из 4 процедур</a></li>
+						<li><a href="#">Миндальный пилинг</a></li>
+						<li><a href="#">Срединный пилинг ТСА</a></li>
+						<li><a href="#">Уход за проблемной и жирной кожей “Comodex”</a></li>
+						<li><a href="#">Пилинг РСА</a></li>
+						<li><a href="#">Пилинг Менемой</a></li>
+						<li><a href="#">Пилинг Свит Скин Систем 25%</a></li>
+						<li><a href="#">Пилинг Свит Скин Систем 35%</a></li>
+						<li><a href="#">Пилинг Биодрога</a></li>
+						<li><a href="#">Мезотерапия Сакура</a></li>
+					</ul>	
+				</div>
+				<div class="submenu-box m3">
+					<ul>
+						<li><a href="#">Пилинг “Anna Lotan” 16%</a></li>
+						<li><a href="#">Пилинг “Плакет” 20%</a></li>
+						<li><a href="#">Пилинг “Плакет” 40%</a></li>
+						<li><a href="#">Пилинг 70%</a></li>
+						<li><a href="#">Ретиноловый пилинг-комплекс из 4 процедур</a></li>
+						<li><a href="#">Миндальный пилинг</a></li>
+						<li><a href="#">Срединный пилинг ТСА</a></li>
+						<li><a href="#">Уход за проблемной и жирной кожей “Comodex”</a></li>
+						<li><a href="#">Пилинг РСА</a></li>
+						<li><a href="#">Пилинг Менемой</a></li>
+						<li><a href="#">Пилинг Свит Скин Систем 25%</a></li>
+						<li><a href="#">Пилинг Свит Скин Систем 35%</a></li>
+						<li><a href="#">Пилинг Биодрога</a></li>
+						<li><a href="#">Мезотерапия Сакура</a></li>
+					</ul>	
+				</div>
+				<ul class="face-menu">
+					<li><a href="#" data-box="m4">Нитевой лифтинг</a></li>
+					<li><a href="#" data-box="m5">Фототерапия</a></li>
+					<li><a class="active2" href="#" data-box="m6">Пилинги</a></li>
+					<li><a href="#" data-box="m7">Уход за лицом и телом</a></li>
+					<li><a href="#" data-box="m8">Трихология</a></li>
 				</ul>
-				<ul>
-					<li><a href="#">Профессиональная косметика</a></li>
+				<div class="submenu-box m4">
+					<ul>
+						<li><a href="#">Пилинг “Anna Lotan” 16%</a></li>
+						<li><a href="#">Пилинг “Плакет” 20%</a></li>
+						<li><a href="#">Пилинг “Плакет” 40%</a></li>
+						<li><a href="#">Пилинг 70%</a></li>
+						<li><a href="#">Ретиноловый пилинг-комплекс из 4 процедур</a></li>
+						<li><a href="#">Миндальный пилинг</a></li>
+						<li><a href="#">Срединный пилинг ТСА</a></li>
+						<li><a href="#">Уход за проблемной и жирной кожей “Comodex”</a></li>
+						<li><a href="#">Пилинг РСА</a></li>
+						<li><a href="#">Пилинг Менемой</a></li>
+						<li><a href="#">Пилинг Свит Скин Систем 25%</a></li>
+						<li><a href="#">Пилинг Свит Скин Систем 35%</a></li>
+						<li><a href="#">Пилинг Биодрога</a></li>
+						<li><a href="#">Мезотерапия Сакура</a></li>
+					</ul>	
+				</div>
+				<div class="submenu-box m5">
+					<ul>
+						<li><a href="#">Пилинг “Anna Lotan” 16%</a></li>
+						<li><a href="#">Пилинг “Плакет” 20%</a></li>
+						<li><a href="#">Пилинг “Плакет” 40%</a></li>
+						<li><a href="#">Пилинг 70%</a></li>
+						<li><a href="#">Ретиноловый пилинг-комплекс из 4 процедур</a></li>
+						<li><a href="#">Миндальный пилинг</a></li>
+						<li><a href="#">Срединный пилинг ТСА</a></li>
+						<li><a href="#">Уход за проблемной и жирной кожей “Comodex”</a></li>
+						<li><a href="#">Пилинг РСА</a></li>
+						<li><a href="#">Пилинг Менемой</a></li>
+						<li><a href="#">Пилинг Свит Скин Систем 25%</a></li>
+						<li><a href="#">Пилинг Свит Скин Систем 35%</a></li>
+						<li><a href="#">Пилинг Биодрога</a></li>
+						<li><a href="#">Мезотерапия Сакура</a></li>
+					</ul>	
+				</div>
+				<div class="submenu-box m6">
+					<ul>
+						<li><a href="#">Пилинг “Anna Lotan” 16%</a></li>
+						<li><a href="#">Пилинг “Плакет” 20%</a></li>
+						<li><a href="#">Пилинг “Плакет” 40%</a></li>
+						<li><a href="#">Пилинг 70%</a></li>
+						<li><a href="#">Ретиноловый пилинг-комплекс из 4 процедур</a></li>
+						<li><a href="#">Миндальный пилинг</a></li>
+						<li><a href="#">Срединный пилинг ТСА</a></li>
+						<li><a href="#">Уход за проблемной и жирной кожей “Comodex”</a></li>
+						<li><a href="#">Пилинг РСА</a></li>
+						<li><a href="#">Пилинг Менемой</a></li>
+						<li><a href="#">Пилинг Свит Скин Систем 25%</a></li>
+						<li><a href="#">Пилинг Свит Скин Систем 35%</a></li>
+						<li><a href="#">Пилинг Биодрога</a></li>
+						<li><a href="#">Мезотерапия Сакура</a></li>
+					</ul>	
+				</div>
+				<div class="submenu-box m7">
+					<ul>
+						<li><a href="#">Пилинг “Anna Lotan” 16%</a></li>
+						<li><a href="#">Пилинг “Плакет” 20%</a></li>
+						<li><a href="#">Пилинг “Плакет” 40%</a></li>
+						<li><a href="#">Пилинг 70%</a></li>
+						<li><a href="#">Ретиноловый пилинг-комплекс из 4 процедур</a></li>
+						<li><a href="#">Миндальный пилинг</a></li>
+						<li><a href="#">Срединный пилинг ТСА</a></li>
+						<li><a href="#">Уход за проблемной и жирной кожей “Comodex”</a></li>
+						<li><a href="#">Пилинг РСА</a></li>
+						<li><a href="#">Пилинг Менемой</a></li>
+						<li><a href="#">Пилинг Свит Скин Систем 25%</a></li>
+						<li><a href="#">Пилинг Свит Скин Систем 35%</a></li>
+						<li><a href="#">Пилинг Биодрога</a></li>
+						<li><a href="#">Мезотерапия Сакура</a></li>
+					</ul>	
+				</div>
+				<div class="submenu-box m8">
+					<ul>
+						<li><a href="#">Пилинг “Anna Lotan” 16%</a></li>
+						<li><a href="#">Пилинг “Плакет” 20%</a></li>
+						<li><a href="#">Пилинг “Плакет” 40%</a></li>
+						<li><a href="#">Пилинг 70%</a></li>
+						<li><a href="#">Ретиноловый пилинг-комплекс из 4 процедур</a></li>
+						<li><a href="#">Миндальный пилинг</a></li>
+						<li><a href="#">Срединный пилинг ТСА</a></li>
+						<li><a href="#">Уход за проблемной и жирной кожей “Comodex”</a></li>
+						<li><a href="#">Пилинг РСА</a></li>
+						<li><a href="#">Пилинг Менемой</a></li>
+						<li><a href="#">Пилинг Свит Скин Систем 25%</a></li>
+						<li><a href="#">Пилинг Свит Скин Систем 35%</a></li>
+						<li><a href="#">Пилинг Биодрога</a></li>
+						<li><a href="#">Мезотерапия Сакура</a></li>
+					</ul>	
+				</div>
+				<ul class="face-menu">
+					<li><a href="#" data-box="m9">Профессиональная косметика</a></li>
 				</ul>
+				<div class="submenu-box m9">
+					<ul>
+						<li><a href="#">Пилинг “Anna Lotan” 16%</a></li>
+						<li><a href="#">Пилинг “Плакет” 20%</a></li>
+						<li><a href="#">Пилинг “Плакет” 40%</a></li>
+						<li><a href="#">Пилинг 70%</a></li>
+						<li><a href="#">Ретиноловый пилинг-комплекс из 4 процедур</a></li>
+						<li><a href="#">Миндальный пилинг</a></li>
+						<li><a href="#">Срединный пилинг ТСА</a></li>
+						<li><a href="#">Уход за проблемной и жирной кожей “Comodex”</a></li>
+						<li><a href="#">Пилинг РСА</a></li>
+						<li><a href="#">Пилинг Менемой</a></li>
+						<li><a href="#">Пилинг Свит Скин Систем 25%</a></li>
+						<li><a href="#">Пилинг Свит Скин Систем 35%</a></li>
+						<li><a href="#">Пилинг Биодрога</a></li>
+						<li><a href="#">Мезотерапия Сакура</a></li>
+					</ul>	
+				</div>
 			</div>
 			<div class="dd-title">
 				<span>RF-Лифтинг</span>
@@ -164,22 +324,22 @@
 					процедуры
 					RF-лифтинг
 				</div>
-				<table class="dd-my-table">
-					<tr>
-						<td class="dd-f-td">RF-лифтинг: лицо</td>
-						<td class="dd-n-td dd-n-td3">3900 Р</td>
-						<!-- <td class="dd-hr"><hr></td> -->
-						<!-- <td>3900 &#8381;</td> -->
-					</tr>
-					<tr>
-						<td class="dd-f-td">RF-лифтинг: шея и декольте</td>
-						<td class="dd-n-td ">2100-3900 Р</td>
-					</tr>
-					<tr>
-						<td class="dd-f-td dd-f-td2">RF-лифтинг: проблемная зона</td>
-						<td class="dd-n-td dd-n-td2">1100 Р</td>
-					</tr>
-				</table>
+				
+					<table class="dd-my-table">
+						<tr>
+							<td class="dd-f-td">RF-лифтинг: лицо</td>
+							<td class="dd-n-td dd-n-td3">3900 Р</td>
+						</tr>
+						<tr>
+							<td class="dd-f-td">RF-лифтинг: шея и декольте</td>
+							<td class="dd-n-td ">2100-3900 Р</td>
+						</tr>
+						<tr>
+							<td class="dd-f-td dd-f-td2">RF-лифтинг: проблемная зона</td>
+							<td class="dd-n-td dd-n-td2">1100 Р</td>
+						</tr>
+					</table>
+				
 				<div class="clearfix"></div>
 			</div>
 		</div>
