@@ -48,7 +48,8 @@ h1 {
   transform: translate(0, -50%);
   right: 0px;
   font-size: 20px;
-  color: #161616; }
+  color: #161616;
+  margin-right: 10px; }
   .anz-menu-ch i {
     font-size: 20px;
     color: #161616; }
