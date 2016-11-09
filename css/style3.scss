@@ -197,14 +197,21 @@ h1{
 		height: 70px;
 		width: 100%;
 	}
+	.da-menu_style{
+		height: 60px;
+		width: 100%;
+	}
 	.da-fixed-menu{
 		position: fixed;
 		width: 100%;
 		height: 60px;
 		z-index: 9999;
-		box-shadow: 0 2px 5px #aaa;
+		// box-shadow: 0 2px 5px #aaa;
 		z-index: 9999;
 		background: #fff;
+	}
+	.da-fixed-menu_style{
+		box-shadow: 0 2px 5px #aaa;
 	}
 	.da-fixed-menu2{
 		position: fixed;
