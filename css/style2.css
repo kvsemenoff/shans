@@ -14,13 +14,16 @@
   float: left;
   text-align: left;
   padding: 0px 15px;
-  height: none; }
+  height: none;
+  margin-bottom: 40px; }
   .db-lv-list li a {
     display: block;
     font-family: "Lato-Bold";
     color: #161616;
     font-size: 18px;
     line-height: 30px; }
+  .db-lv-list li a:hover {
+    text-decoration: underline; }
   .db-lv-list li .db-lv-title {
     font-family: "pt-serif" !important;
     font-size: 32px !important;
@@ -55,11 +58,11 @@
 .db-rl-lift {
   display: block;
   width: 100%;
-  height: 150px;
+  height: auto;
   float: none; }
   .db-rl-lift img {
     width: 100%;
-    height: 100%; }
+    height: auto; }
 
 .db-wrapp {
   width: 100%;
@@ -137,8 +140,7 @@
   margin-top: 42px;
   color: #161616;
   font-size: 15px;
-  font-family: System;
-  font-weight: 700; }
+  font-family: "Lato-Bold"; }
 
 @media only screen and (min-width: 480px) {
   .db-lv-list {
