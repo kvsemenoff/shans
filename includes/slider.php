@@ -28,7 +28,8 @@
 				<div class="clearfix"></div>
 			</div> -->
 		</div>
-		<div class="item" style="background:url(../img/sl2.jpg);" >
+		<div class="item">
+		<img src="img/sl-new.jpg" alt="">
 			<!-- <div class="dd-slide-txt-wrap2">
 				<div class="dd-logo-box">
 					<img class="img-responsive" src="img/dd-logo.png" alt="">
@@ -47,7 +48,8 @@
 				<div class="clearfix"></div>
 			</div> -->
 		</div>
-		<div class="item" style="background:url(../img/sl2.jpg);" >
+		<div class="item">
+		<img src="img/sl-new.jpg" alt="">
 		<!-- 	<div class="dd-slide-txt-wrap2">
 				<div class="dd-logo-box">
 					<img class="img-responsive" src="img/dd-logo.png" alt="">

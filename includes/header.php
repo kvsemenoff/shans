@@ -29,7 +29,9 @@
                 </div>
             </div>
     	</div>
-        <div class="da-green"></div>
+        <div class="da-green-outer">
+            <div class="da-green"></div>
+        </div>
     </div>
 </section>
 <script>
@@ -37,7 +39,7 @@
         // alert(1);
         $(document).scroll(function(){
             // alert(1);
-            if($('body, html').scrollTop()>130){
+            if($('body').scrollTop()>140 || $('html').scrollTop()>140){
                 $('.da-point').addClass('da-fixed-menu2');
             } else {
                 $('.da-point').removeClass('da-fixed-menu2');
